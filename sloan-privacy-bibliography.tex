@@ -1,0 +1,53 @@
+% !TeX TXS-program:bibliography = txs:///biber
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{etoolbox}
+% ======== SET THIS FLAG to indicate whether to use a local or remote bib file
+\newtoggle{local}
+%\togglefalse{local}
+\toggletrue{local}
+
+\usepackage[%
+plainpages,%
+colorlinks,%
+urlcolor=black,%
+filecolor=black,%
+pdfpagemode=UseOutlines,%
+pdfauthor={John Abowd, Ian Schmutte, William Sexton, Lars Vilhuber},%
+pdfsubject={Bibliography},%
+]{hyperref}
+\usepackage[citestyle=authoryear,maxnames=10,backend=biber]{biblatex}
+
+\nocite{*}
+\author{lars.vilhuber }
+\date{\today}
+
+
+\iftoggle{local}{
+	\addbibresource{library.bib}
+	\title{Sloan Privacy Bibliography [local]}
+}%else
+{
+	\addbibresource[location=remote]{https://www.ncrn.cornell.edu/wp-content/uploads/2016/10/library.bib}
+	\title{Sloan Privacy Bibliography}
+}
+
+\begin{document}
+\maketitle
+
+This bibliography is generated for the Sloan project at Cornell University's Labor Dynamics Institute. It is a curated selection of privacy-related articles. Articles are in alphabetical order of the first author's last name.
+
+\printbibliography[type=article,title={Articles}]
+\printbibliography[type=report,title={Preprints and Working papers}]
+\printbibliography[nottype=report,nottype=article,title={Other publications}]
+\newpage
+\begin{quote}
+	\footnotesize
+This bibliography can be easily recreated by cloning our SVN repository at \url{ https://forge.cornell.edu/svn/repos/jma7/sloan-privacy-bibliography/bibtex}. 
+\iftoggle{local}{This version was created from the BIB file in the repository as of \today. A flag can be set in the preamble of this TEX file to download a remote copy from}{The bibliographic database was downloaded on \today directly from} \url{https://www.ncrn.cornell.edu/wp-content/uploads/2016/10/library.bib}.
+\iftoggle{local}{}{A flag can be set in the preamble of this TEX file to use the local checked out version in the SVN repository.}
+
+
+\end{quote}
+\end{document}
