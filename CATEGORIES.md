@@ -11,3 +11,4 @@ This is a list of categories into which we split bibliography entries and their 
 * Public Goods
 * Miscellaneous
 * Policy Documents
+* Official Statistics
