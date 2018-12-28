@@ -7,4 +7,7 @@ This is a list of categories into which we split bibliography entries and their 
 * Literature on Formal Privacy 
 * Value of Data 
 * Value of Privacy 
-* 
+* Syllabus
+* Theory of Public Goods
+* Miscellaneous
+* Policy Documents
