@@ -13,7 +13,8 @@ This is a list of categories into which we split bibliography entries and their 
 * Statistical Disclosure Limitation
 
 Beyond these categories we also divide references as
+* Background
 * Primary (should be around 5-10 papers)
 * Secondary (everything else)
 
-The syllabus will be built by grouping together all primary documents within each of the above-mentioned categories. We will also generate a "further reading" appendix with all the secondary documents, also grouped by category. Finally, we will have a brief narrative for each topic that explains why we chose particular paper.
+The syllabus will be built by listing all background documents, then grouping together all primary documents within each of the above-mentioned categories. We will also generate a "further reading" appendix with all the secondary documents, also grouped by category. Finally, we will have a brief narrative for each topic that explains why we chose particular paper.
