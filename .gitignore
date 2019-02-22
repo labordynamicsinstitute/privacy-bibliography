@@ -10,3 +10,11 @@ sloan-privacy-bibliography.synctex.gz
 library.bib.bak
 library.bib.sav
 __latexindent_temp.tex
+.Rproj.user
+.Rhistory
+.RData
+_publish.R
+_book
+_bookdown_files
+rsconnect
+_main.html

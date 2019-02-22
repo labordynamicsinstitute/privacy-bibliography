@@ -1,0 +1,28 @@
+---
+title: "Data Privacy for Official Statistics"
+author: "John M. Abowd, Ian M. Schmutte, William Sexton, and Lars Vilhuber"
+site: bookdown::bookdown_site
+documentclass: article
+output:
+  bookdown::html_document2: default
+  bookdown::pdf_document2: default
+bibliography: [primary.bib]
+---
+
+# Overview
+
+# Background
+
+# Formal Privacy
+
+# Policy and Official Statistics
+
+# Statistical Disclosure Limitation
+
+# Economics of Privacy
+
+# Value of Privacy
+
+# Value of Data
+
+<!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->
