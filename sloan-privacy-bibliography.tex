@@ -19,7 +19,7 @@ pdfpagemode=UseOutlines,%
 pdfauthor={John Abowd, Ian Schmutte, William Sexton, Lars Vilhuber},%
 pdfsubject={Bibliography},%
 ]{hyperref}
-\usepackage[citestyle=authoryear,maxnames=10,backend=biber]{biblatex}
+\usepackage[style=authoryear,citestyle=authoryear,maxnames=10,backend=biber]{biblatex}
 
 \author{John Abowd, Ian Schmutte, William Sexton, Lars Vilhuber}
 \date{\today}
@@ -47,15 +47,44 @@ pdfsubject={Bibliography},%
 	type=book
 }
 
+\defbibfilter{extended}{
+	( keyword={formal privacy} or
+	keyword={economics of privacy} or
+	keyword=policy or
+	keyword={official statistics} or
+	keyword=SDL or
+	keyword={value of privacy} or
+	keyword={value of data} ) and
+	not keyword=background and
+	not keyword=primary
+}
+
 \begin{document}
 \maketitle
 
 This bibliography is generated for the Sloan project at Cornell University's Labor Dynamics Institute. It is a curated selection of privacy-related articles. Articles are in alphabetical order of the first author's last name.
 \nocite{*}
+\section*{Key References}
 % \printbibliography[title={Articles}]
-% \printbibliography[title={Background},keyword={background}]
-\printbibliography[title={Formal Privacy},keyword={formal privacy},notkeyword={background}]
-% \printbibliography[type=report,title={Preprints and Working papers}]
-% \printbibliography[nottype=report,nottype=article,title={Other publications}]
+\printbibliography[title={Background},keyword={background}]
+\printbibliography[title={Formal Privacy},keyword={formal privacy},notkeyword={background},keyword={primary}]
+\printbibliography[title={Economics of Privacy},keyword={economics of privacy},notkeyword={background},keyword={primary}]
+\printbibliography[title={Policy},keyword={Policy},notkeyword={background},keyword={primary}]
+\printbibliography[title={Official Statistics},keyword={official statistics},notkeyword={background},keyword={primary}]
+\printbibliography[title={Statistical Disclosure Limitation},keyword={SDL},notkeyword={background},keyword={primary}]
+\printbibliography[title={Value of Privacy},keyword={value of privacy},notkeyword={background},keyword={primary}]
+\printbibliography[title={Value of Data},keyword={value of data},notkeyword={background},keyword={primary}]
+
+\clearpage
+\section*{Additional Reading}
+\printbibliography[title={Formal Privacy},keyword={formal privacy},notkeyword={background},notkeyword={primary}]
+\printbibliography[title={Economics of Privacy},keyword={economics of privacy},notkeyword={background},notkeyword={primary}]
+\printbibliography[title={Policy},keyword={Policy},notkeyword={background},notkeyword={primary}]
+\printbibliography[title={Official Statistics},keyword={official statistics},notkeyword={background},notkeyword={primary}]
+\printbibliography[title={Statistical Disclosure Limitation},keyword={SDL},notkeyword={background},notkeyword={primary}]
+\printbibliography[title={Value of Privacy},keyword={value of privacy},notkeyword={background},notkeyword={primary}]
+\printbibliography[title={Value of Data},keyword={value of data},notkeyword={background},notkeyword={primary}]
+% \printbibliography[title={Reference},keyword={reference},notkeyword={background}]
+% \printbibliography[title={Extended Reference List},filter=extended]
 
 \end{document}
