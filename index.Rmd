@@ -1,5 +1,5 @@
 ---
-title: "Data Privacy for Official Statistics"
+title: "Introductory Readings in Formal Privacy for Economists (In Progress)"
 author: "John M. Abowd, Ian M. Schmutte, William Sexton, and Lars Vilhuber"
 site: bookdown::bookdown_site
 documentclass: article
@@ -12,7 +12,14 @@ biblio-style: "authoryear"
 ---
 
 # Overview
-Lorem ipsum
+The purpose of this document is to encourage scholars to contribute to the economic analysis of formal privacy, and particularly its application to public statistics. Statistical agencies and tech giants are rapidly adopting formal privacy models make the tradeoff between privacy and data quality precise. The question then becomes, how much privacy loss should they allow? @AbowdSchmutte:Privacy:AER argue that this choice ultimately depends on how decision makers weigh the costs of privacy loss against the benefits of higher-quality data.
+
+Contributing to this discussion requires familiarity with no fewer than five distinct bodies of literature. First, it is necessary to understand what statistical agencies do and the laws, regulations, and institutions that govern them. Second, formal privacy models have emerged from the cryptography subfield of computer science. Third, a decades-long literature on statistical disclosure limitation provides the basis for most privacy controls currently in use. Fourth, a literature on the economics of privacy provides some insight into how firms and their consumers might trade in private data, primarily in contexts where firms want such data for marketing or other strategic purposes. 
+
+
+It is a truism that as more data become available, we see greater risks to privacy. In many contexts, institutions have some control over both the extent of privacy, and the amount of data available. Indeed, the Law of Information Recovery [@Dinur:2003:RIW:773153.773173] tells us, in a sense, that as we publish more data, we must necessarily lose privacy.
+
+
 
 # Background
 @title13
