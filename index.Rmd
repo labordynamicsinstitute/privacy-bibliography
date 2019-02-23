@@ -4,15 +4,25 @@ author: "John M. Abowd, Ian M. Schmutte, William Sexton, and Lars Vilhuber"
 site: bookdown::bookdown_site
 documentclass: article
 output:
-  bookdown::html_document2: default
-  bookdown::pdf_document2: default
+  bookdown::gitbook: default
+  # bookdown::pdf_book: default
 bibliography: [primary.bib]
+link-citations: true
+biblio-style: "authoryear"
 ---
 
 # Overview
 Lorem ipsum
 
 # Background
+@title13
+@cipsea
+@AbowdSchmutte:Privacy:AER
+@Dwork:Roth:journal:version:2014
+@Harvard:DataPrivacyLab
+@Heffetz2014
+@jones:2017
+@Nissim:DPNonTech:WP:2018
 
 # Formal Privacy
 
@@ -25,5 +35,7 @@ Lorem ipsum
 # Value of Privacy
 
 # Value of Data
+
+`r if (knitr::is_html_output()) '# References {-}'`
 
 <!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->
