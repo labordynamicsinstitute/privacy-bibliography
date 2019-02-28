@@ -26,24 +26,17 @@ We have organized these references into a reading course focused on 10-15 primar
 In the remainder of this document, for each topic, we provide a very brief description of the papers in the reading course and why we selected them. In each case, we orient the reader to the key issues, concepts, and tools in each topic. In addition to the reading course, we have also curated a much more extensive list of references, available here [link].
 
 # Background
-To begin, we have curated a short list of background references that frame a particular set of research topics. @AbowdSchmutte:Privacy:AER show how to combine formal privacy models with the classic theory of public goods to understand and guide decisions about privacy protection and data dissemination. For the neophyte, @Nissim:DPNonTech:WP:2018 provide a non-technical introduction to formal privacy models in general, and differential privacy in particular.  @Heffetz2014 also introduce differential privacy, but targeted toward economists. After reading these introductory treatments, you should review the textbook treatment of differential privacy in @Dwork:Roth:journal:version:2014, focusing on Chapters 1--3.
+To begin, we have curated a short list of background references that frame a particular set of research topics. @AbowdSchmutte:Privacy:AER show how to combine formal privacy models with the classic theory of public goods to understand and guide decisions about privacy protection and data dissemination. For the neophyte, @Nissim:DPNonTech:WP:2018 provide a non-technical introduction to formal privacy models in general, and differential privacy in particular.  @Heffetz2014 also introduce differential privacy, but targeted toward economists. After reading these introductory treatments, you should review the textbook treatment of differential privacy in @Dwork:Roth:journal:version:2014, focusing on Chapters 1--3. 
 
-
-
-
-
-@title13
-@cipsea
-
-
-@Harvard:DataPrivacyLab
-
-@jones:2017
+To provide a concrete grounding in practical issues of privacy,  @jones:2017 summarizes the history of privacy breaches and privacy protection in the U.S. statistical system. It is important to ask how formal privacy models do, and do not, capture common language and legal interpretations of privacy. As such, we also recommend a review of some of the laws governing data privacy in the U.S. [@title13, @cipsea]. A quick review of the Harvard Data Privacy Lab website [@Harvard:DataPrivacyLab] can provide a sense of how differential privacy is being implemented in various settings.
 
 
 # Formal Privacy
+The literature on formal privacy is vast. Here, we focus on those papers that we feel will help orient the reader to the key ideas and tools of differential privacy; particularly those relevant to the economic problem of determining optimal privacy protection. However, these references will also provide an adequate grounding for the reader who needs to understand how differential privacy will affect published data. We note that the distinction between the literature on formal privacy and the literature on statistical disclosure limitation (SDL) is increasingly blurry and arguably arbitrary. For the purpose of this reading course and associated bibliography, we associate formal privacy as a literature emerging in computer science out of cryptography. Below, we recommend additional readings from the SDL literature, which has a distinct origin in statistics. 
+
 
 # Policy and Official Statistics
+
 
 # Statistical Disclosure Limitation
 
