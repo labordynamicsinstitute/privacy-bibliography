@@ -16,6 +16,7 @@ The purpose of this document is to provide scholars with a comprehensive list of
 Statistical agencies and tech giants are rapidly adopting formal privacy models make the tradeoff between privacy and data quality precise. The question then becomes, how much privacy loss should they allow? @AbowdSchmutte:Privacy:AER argue that this choice ultimately depends on how decision makers weigh the costs of privacy loss against the benefits of higher-quality data. Making progress on these questions requires familiarity with new tools from computer science and statistics, the objectives and policy environment within which statistical agencies operate, along wtih the economic analysis of information. 
 
 We have organized these references into a reading course focused on 10-15 primary references in each of six different topics:
+
 * Formal Privacy
 * Policy and Official Statistics
 * Statistical Disclosure Limitation
@@ -32,7 +33,23 @@ To provide a concrete grounding in practical issues of privacy,  @jones:2017 sum
 
 
 # Formal Privacy
-The literature on formal privacy is vast. Here, we focus on those papers that we feel will help orient the reader to the key ideas and tools of differential privacy; particularly those relevant to the economic problem of determining optimal privacy protection. However, these references will also provide an adequate grounding for the reader who needs to understand how differential privacy will affect published data. We note that the distinction between the literature on formal privacy and the literature on statistical disclosure limitation (SDL) is increasingly blurry and arguably arbitrary. For the purpose of this reading course and associated bibliography, we associate formal privacy as a literature emerging in computer science out of cryptography. Below, we recommend additional readings from the SDL literature, which has a distinct origin in statistics. 
+The literature on formal privacy is vast. Here, we focus on those papers that we will help orient the reader to the key ideas and tools of differential privacy; particularly those relevant to the economic problem of determining optimal privacy protection. However, these references will also provide an adequate grounding for the reader who needs to understand how differential privacy will affect published data. We note that the distinction between the literature on formal privacy and the literature on statistical disclosure limitation (SDL) is increasingly blurry and arguably arbitrary. For the purpose of this reading course and associated bibliography, we associate formal privacy as a literature emerging in computer science out of cryptography. Below, we recommend additional readings from the SDL literature, which has a distinct origin in statistics.
+
+
+@Dworketal:2006 is generally regarded as the first paper to formally introduce differential privacy. It's development was due, in part, to the *database reconstruction theorem* published by @Dinur:2003:RIW:773153.773173, which showed that most data publication mechanisms are blatantly non-private in a well-defined sense. The database reconstruction theorem has recently been shown to have very practical consequences for the statistical disclosure protections in place at the Census Bureau. The concept of k-anonymity developed by @sweeney:2002 is another important antecedent that bridges the formal privacy and SDL literatures.
+
+In assessing formal privacy as a framework for modeling data publication, it is natural to consider the optimal, or maximal amount of data accuracy that can be provided while maintaining privacy. @Gupta:2012:ICP:2238936.2238961 establish a mechanism that is universally optimal for a broad class of data users, suggesting that technical efficiency could be guaranteed in private data publication without the need to learn about the preferences or side information of data consumers. However, @BrennerNissim:Impossibility:SIAM:2014 showed that their result is not generalizable to broader types of data publication.
+@Nissim:2012:PMD:2229012.2229073 provide a clear and instructive illustration of how individual preferences for privacy can be modeled in mechanism design problems. 
+
+Several papers are more directly relevant to understanding how privacy affects the work of statistical agencies.
+@cummings:empirical:corr:2014 argue that privacy concerns can affect the way people report data, and show how, if properly designed, privacy protection may mitigate misreporting.
+While there are vast number of papers on the implementation of differentially private publication algorithms, a few are particularly relevant to how statistical agencies operate. @Hardt:Simple:NIPS:2012 and @Hardt:Multiplicative:FOCS10 provide the methods and theory for publication through online query systems. One problem with these methods is that their implementation depends on the underlying data. By contrast, @li:matrix:VLDB:2015 introduce the Matrix Mechanism, which is data-independent, but also can provide high accuracy for reasonable levels of privacy. This is one of the methods under development for use with the 2020 Decennial Census. Other formal privacy systems currently in use at Census are documented in @Machanavajjhala:OTM:ICDE:2008
+and @HaneySIGMOD2017.
+
+Finally, so-called "privacy semantics" are mappings between mathematical definitions of privacy and plain language. These are really important for practitioners because there is usually a gap between how laypeople think about privacy and how it is defined in the CS literature. By way of introduction, we recommend @He:Blowfish:ACMSIGMOD:2014, @jorgensen:personalized:ICDE:2015. 
+
+
+
 
 
 # Policy and Official Statistics
