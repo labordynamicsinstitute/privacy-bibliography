@@ -21,15 +21,16 @@ We have organized these references into a reading course focused on 10-15 primar
 * Policy and Official Statistics
 * Statistical Disclosure Limitation
 * Economics of Privacy
-* Value of Privacy
-* Value of Data
+* Value of Privacy and Data Accuracy
 
 In the remainder of this document, for each topic, we provide a very brief description of the papers in the reading course and why we selected them. In each case, we orient the reader to the key issues, concepts, and tools in each topic. In addition to the reading course, we have also curated a much more extensive list of references, available here [link].
 
 # Background
 To begin, we have curated a short list of background references that frame a particular set of research topics. @AbowdSchmutte:Privacy:AER show how to combine formal privacy models with the classic theory of public goods to understand and guide decisions about privacy protection and data dissemination. For the neophyte, @Nissim:DPNonTech:WP:2018 provide a non-technical introduction to formal privacy models in general, and differential privacy in particular.  @Heffetz2014 also introduce differential privacy, but targeted toward economists. After reading these introductory treatments, you should review the textbook treatment of differential privacy in @Dwork:Roth:journal:version:2014, focusing on Chapters 1--3. 
 
-To provide a concrete grounding in practical issues of privacy,  @jones:2017 summarizes the history of privacy breaches and privacy protection in the U.S. statistical system. It is important to ask how formal privacy models do, and do not, capture common language and legal interpretations of privacy. As such, we also recommend a review of some of the laws governing data privacy in the U.S. [@title13, @cipsea]. A quick review of the Harvard Data Privacy Lab website [@Harvard:DataPrivacyLab] can provide a sense of how differential privacy is being implemented in various settings.
+To provide a concrete grounding in practical issues of privacy,  @jones:2017 summarizes the history of privacy breaches and privacy protection in the U.S. statistical system. It is important to ask how formal privacy models do, and do not, capture common language and legal interpretations of privacy. As such, we also recommend a review of some of the laws governing data privacy in the U.S. [@title13, @cipsea]. A quick review of the Harvard Data Privacy Lab website [@Harvard:DataPrivacyLab] can provide a sense of how differential privacy is being implemented in various settings. @Goroff2015 also provides a very useful overview of the key issues in this reading course for a lay audience.
+@Abowd:JPC:2017 and @abowd:fcsm:2016 survey formal privacy systems being implemented at the Census Bureau.
+
 
 
 # Formal Privacy
@@ -49,19 +50,41 @@ and @HaneySIGMOD2017.
 Finally, so-called "privacy semantics" are mappings between mathematical definitions of privacy and plain language. These are really important for practitioners because there is usually a gap between how laypeople think about privacy and how it is defined in the CS literature. By way of introduction, we recommend @He:Blowfish:ACMSIGMOD:2014, @jorgensen:personalized:ICDE:2015. 
 
 
-
-
-
 # Policy and Official Statistics
+In January 2017, the Committee on National Statistics released a special panel report focused on developing innovations in the U.S. statistical system focused, in part, on preserving privacy [@groves:harris-kojetin:2017]. 
+Their report is essential reading to understand the governing principles and practical needs of the statistical system, particularly as it relates to privacy modernization. For a more applied perspective, @Proc:NSF-Sloan:2017 report the proceedings of an ad hoc workshop on practical privacy held at the Census Bureau. That workshop gathered together academic privacy researchers and Census domain experts to help design formal privacy systems for key data products.
+In such meetings, it is necessary to make sure people are speaking the same language. @prewitt:2011 describes the specific meanings of the terms "privacy" and "confidentiality" as they have historically been used at the Census Bureau. 
+
+@Manski2014 offers a framework for thinking about total error in official statistics, which refers to the various ways measured quantities may differ from the concepts of interest, including measurement error, design error, and sampling error. From this perspective, privacy protection is yet another source of error in any statistical system.
+Maintaining the public trust is a key factor motivating the interest of statistical agencies in privacy protection. 
+The less people trust the system, the less likely they respond accurately, or at all. @Childs:Confidence:SP:2015 discuss recent statistics on trust in official statistics and their implications for data collection.
+Finally, @HaneySIGMOD2017 and @Holan2010 are good examples of the sorts of implementation details one may encounter when applying statistical privacy protections in public data.
 
 
 # Statistical Disclosure Limitation
+Within most national statistical systems, the primary approach to protecting respondent privacy has been *statistical disclosure limitation* or SDL. @anderson:challenges:JOS:2007 describes the history of threats to confidentiality in the U.S. statistical system prior to 1965. Ivan @Fellegi:1972 initiated the statistical analysis of data confidentiality. @Dalenius:Towards:1977 recognized that statistical agencies would need to do more than just protect against direct disclosures, and thus warned against what he called inferential disclosure. His idea was formalized by @Duncan:Lambert:1986, and provides the ultimate rationale for formal privacy in national statistics. 
+ 
+@abowd:schmutte:BPEA:2015 review the SDL methods currently in use and discuss their application to economic data. They argue that the analysis of SDL-laden data is inherently compromised because the details of the SDL protections cannot be disclosed. If they cannot be disclosed, their consequences for inference are unknowable, and, as they show, potentially large. @Garfinkel:Deidentification:NIST:2015 discusses techniques for de-identifying data and the many ways in which modern computing tools and a data-rich environment may render effective de-identification impossible.
+Finally, @spwp22 provides the most comprehensive review of SDL methods currently in use across the U.S. statistical system. 
 
 # Economics of Privacy
+There is a large and robust literature on privacy in economics. That literature is generally focused on the value to individuals of being able to conceal private information, like a health condition, from a firm or prospective employer. 
+The challenge to the firm is to design mechanisms, like pricing strategies, that encourage people to disclose private information. For an overview of ideas in this literature, we recommend reading @stigler1980introduction, @posner1981economics, and @hirshleifer1980privacy, which appeared in an early symposium. @Varian1996 and @acquisti:taylor:wagman:2015 both provide comprehensive surveys at different points in the development of this literature.
 
-# Value of Privacy
+Very few papers tie the economics of privacy directly to official statistics. @Campbell:Privacy:JEMS discuss the consequences for firm profits and individual welfare of data privacy restrictions in California, which prevent firms from sharing certain types of mortgage data. Goldfarb:Shifts:AERPP:2012 discuss shifts in privacy attitudes and their implications for firms. In @Hsu:EconomicEpsilon:IEEE:2014, address the question of optimal privacy protection from a very similar perspective to @AbowdSchmutte:Privacy:AER. Finally, @Ohm:Broken:UCLALR:2010 surveys the economic implications of contemporary threats to data privacy from a legal perspective.
 
-# Value of Data
+
+# Value of Privacy and Data Accuracy
+One key challenge for implementing formal privacy systems lies in choosing the amount, or type, of privacy to provide. Answering this question requires some way to understand, the individual and social value of privacy. @Ghosh:Auction:GEB:2015 and @Li2014 both model mechanisms for pricing private data under the assumption that individuals are only willing to disclose such information if they are paid.
+
+Part of the social value of privacy arises from its relationship to scientific integrity. While the law of information recovery suggests that improved privacy must come at the cost of increased error in published statistics, these effects might be mitigated through two distinct channels. First, people are more truthful in surveys if they believe their data is not at risk, as @couper2008risk illustrate. Second, recent work in computer science and statistics suggests another somewhat surprising benefit of differential privacy: protection against overfitting [@cummings:adaptive:corr:2016,@Dwork:Generalization:NIPS:2015]. A complete accounting of the costs and benefits of formal privacy systems should take these channels into account.
+
+It is equally necessary to develop a more robust understanding of why data is valuable in the first place, the overall social cost of increasing error in public statistics. This seems to be an area in which very little comprehensive theoretical or empirical research has been done. We nevertheless recommend what seem to be good starting points.
+
+On the theoretical side, economists studying privacy have also developed models of the value of data to firms. In these models, firms benefit from being able to tailor prices based on individual demand, or from being able to market more effectively [@Taylor:Consumer:RAND:2004,@Varian1998]. More recently, a theoretical literature on information design has begun to consider more effective ways to manage markets for consumer information [@10.1257/aer.20161079,@PomattoTheCostOfInformation2018]. The recent literature is related to @Spencer:Optimal:JASA:1985, who developed a decision-theoretic framework for modeling optimal data quality.
+
+On the empirical side, a handful of interesting use cases suggest techniques for uncovering the value of data. For example, @CardAER2012 and @perez-truglia:transparency:SSRN:2016 show how workers respond to pay transparency policies, which give them new information about co-worker salaries. @Seeskin:Spencer:Effects:2015 use a calibration exercise to study the costs, measured in misallocated congressional seats, of reduced accuracy in Census data.
+
 
 `r if (knitr::is_html_output()) '# References {-}'`
 
