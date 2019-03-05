@@ -1,6 +1,11 @@
 language: r
 cache: packages
 pandoc_version: 1.19.2.1
+# safelist
+branches:
+  only:
+  - master
+  - stable
 
 before_script:
   - chmod +x ./_build.sh
