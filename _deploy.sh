@@ -13,7 +13,8 @@ mkdir book-output
 cd book-output
 git init
 cp -r ../_book/* ./
+[[ -f _main.pdf ]] && mv _main.pdf privacybibliography.pdf
 git add --all *
 git commit -m"Update the book" || true
-git push --force --quiet "https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}" master:gh-pages 
+git push --force --quiet "https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}" master:gh-pages
 #git push -q origin gh-pages
