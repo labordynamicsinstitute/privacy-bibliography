@@ -6,15 +6,14 @@ bookdown::gitbook:
   config:
     download: null
     edit:
-        link: https://github.com/labordynamicsinstitute/privacybibliography/edit/master/%s
+        link: https://github.com/labordynamicsinstitute/privacy-bibliography/edit/master/%s
     sharing:
       facebook: no
       github: yes
     toc:
       collapse: section
       scroll_highlight: yes
-      before: |
-             <li class="chapter">Introductory Readings in Formal Privacy for Economists</li>
+      before: null
       after: |
               <li class="chapter">©️ 2019 Abowd, Schmutte, Vilhuber</li>
               <li class="chapter"><a href="https://creativecommons.org/licenses/by-nc/4.0/" alt="Link to CC BY-NC 4.0" target="_blank">

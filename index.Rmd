@@ -86,5 +86,6 @@ On the empirical side, a handful of interesting use cases suggest techniques for
 
 
 `r if (knitr::is_html_output()) '# References {-}'`
+`r if (knitr::is_html_output()) '<div id="refs"></div>'`
 
 <!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->

@@ -1,6 +1,7 @@
-knitr::include_graphics(rep("cc-by-nc.png", 3))
+
 
 # License {-}
+`r knitr::include_graphics("cc-by-nc.png")`
 
 ## Creative Commons Attribution-NonCommercial 4.0 International Public License {-}
 
