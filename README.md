@@ -3,4 +3,4 @@
 # privacy-bibliography
 
 Live address: https://labordynamicsinstitute.github.io/privacy-bibliography/
-PDF (if available): https://labordynamicsinstitute.github.io/privacy-bibliography/_main.pdf
+PDF (if available): https://labordynamicsinstitute.github.io/privacy-bibliography/privacybibliography.pdf
