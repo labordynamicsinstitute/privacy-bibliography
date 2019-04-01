@@ -1,6 +1,7 @@
 ---
 title: "Introductory Readings in Formal Privacy for Economists"
 author: "John M. Abowd, Ian M. Schmutte, William Sexton, and Lars Vilhuber"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
 site: bookdown::bookdown_site
 github-repo: labordynamicsinstitute/privacy-bibliography
 documentclass: article
