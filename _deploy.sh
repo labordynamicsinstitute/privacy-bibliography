@@ -13,7 +13,8 @@ mkdir book-output
 cd book-output
 git init
 cp -r ../_book/* ./
-[ -f _main.pdf ] && mv _main.pdf privacybibliography.pdf
+[ -f _main.pdf ] && mv _main.pdf Introductory_Readings_Privacy_Economists.pdf
+[ -f ../sloan-privacy-bibliography.pdf ] && mv sloan-privacy-bibliography.pdf .
 git add --all *
 git commit -m"Update the book" || true
 git push --force --quiet "https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}" master:gh-pages
