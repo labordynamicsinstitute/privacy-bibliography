@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 Formal Privacy | Introductory Readings in Formal Privacy for Economists</title>
+  <meta name="description" content="3 Formal Privacy | Introductory Readings in Formal Privacy for Economists" />
+  <meta name="generator" content="bookdown  and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3 Formal Privacy | Introductory Readings in Formal Privacy for Economists" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="labordynamicsinstitute/privacy-bibliography" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 Formal Privacy | Introductory Readings in Formal Privacy for Economists" />
+  
+  
+  
+
+<meta name="author" content="John M. Abowd, Ian M. Schmutte, William Sexton, and Lars Vilhuber" />
+
+
+<meta name="date" content="2019-04-02" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="background.html">
+<link rel="next" href="policy-and-official-statistics.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a></li>
+<li class="chapter" data-level="2" data-path="background.html"><a href="background.html"><i class="fa fa-check"></i><b>2</b> Background</a></li>
+<li class="chapter" data-level="3" data-path="formal-privacy.html"><a href="formal-privacy.html"><i class="fa fa-check"></i><b>3</b> Formal Privacy</a></li>
+<li class="chapter" data-level="4" data-path="policy-and-official-statistics.html"><a href="policy-and-official-statistics.html"><i class="fa fa-check"></i><b>4</b> Policy and Official Statistics</a></li>
+<li class="chapter" data-level="5" data-path="statistical-disclosure-limitation.html"><a href="statistical-disclosure-limitation.html"><i class="fa fa-check"></i><b>5</b> Statistical Disclosure Limitation</a></li>
+<li class="chapter" data-level="6" data-path="economics-of-privacy.html"><a href="economics-of-privacy.html"><i class="fa fa-check"></i><b>6</b> Economics of Privacy</a></li>
+<li class="chapter" data-level="7" data-path="value-of-privacy-and-data-accuracy.html"><a href="value-of-privacy-and-data-accuracy.html"><i class="fa fa-check"></i><b>7</b> Value of Privacy and Data Accuracy</a></li>
+<li class="chapter" data-level="8" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>8</b> References</a></li>
+<li class="divider"></li>
+<li class="chapter">©️ 2019 Abowd, Schmutte, Sexton, Vilhuber</li>
+<li class="chapter"><a href="https://creativecommons.org/licenses/by-nc/4.0/" alt="Link to CC BY-NC 4.0" target="_blank">
+<img alt="License: CC BY-NC 4.0" src="https://licensebuttons.net/l/by-nc/4.0/80x15.png" /></a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introductory Readings in Formal Privacy for Economists</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="formal-privacy" class="section level1">
+<h1><span class="header-section-number">3</span> Formal Privacy</h1>
+<p>The literature on formal privacy is vast. Here, we focus on those papers that will help orient the reader to the key ideas and tools of differential privacy, particularly those relevant to the economic problem of determining optimal privacy protection when publishing population statistics. For the purpose of this reading course and associated bibliography, we associate formal privacy as a literature emerging in computer science out of cryptography. In the section on “<a href="statistical-disclosure-limitation.html#statistical-disclosure-limitation">Statistical Disclosure Limitation</a>”, we recommend additional readings from the SDL literature, which has a distinct origin in statistics.</p>
+<p><span class="citation">Dwork et al. (<a href="#ref-Dworketal:2006">2006</a>)</span> is generally regarded as the first paper to formally introduce differential privacy. Its development was due, in part, to the <em>database reconstruction theorem</em> published by <span class="citation">Dinur and Nissim (<a href="#ref-Dinur:2003:RIW:773153.773173">2003</a>)</span>, which showed that most data publication mechanisms are blatantly non-private in a well-defined sense. The database reconstruction theorem has recently been shown to have very practical consequences for the statistical disclosure protections in place at the Census Bureau. The concept of <em>k-anonymity</em> developed by <span class="citation">Sweeney (<a href="#ref-sweeney:2002">2002</a>)</span> is another important antecedent that bridges the formal privacy and SDL literatures.</p>
+<p>In assessing formal privacy as a framework for modeling data publication, it is natural to consider the optimal, or maximal amount of data accuracy that can be provided while maintaining privacy. <span class="citation">Gupta, Roth, and Ullman (<a href="#ref-Gupta:2012:ICP:2238936.2238961">2012</a>)</span> establish a mechanism that is universally optimal for a broad class of data users, suggesting that technical efficiency could be guaranteed in private data publication without the need to learn about the preferences or side information of data consumers. However, <span class="citation">Brenner and Nissim (<a href="#ref-BrennerNissim:Impossibility:SIAM:2014">2014</a>)</span> showed that their result is not generalizable to broader types of data publication. <span class="citation">Nissim, Orlandi, and Smorodinsky (<a href="#ref-Nissim:2012:PMD:2229012.2229073">2012</a>)</span> provide a clear and instructive illustration of how individual preferences for privacy can be modeled in mechanism design problems.</p>
+<p>Several papers are more directly relevant to understanding how privacy affects the work of statistical agencies. <span class="citation">Cummings, Echenique, and Wierman (<a href="#ref-cummings:empirical:corr:2014">2014</a>)</span> argue that privacy concerns can affect the way people report data, and show how, if properly designed, privacy protection may mitigate misreporting. While there are vast number of papers on the implementation of differentially private publication algorithms, a few are particularly relevant to how statistical agencies operate. <span class="citation">Hardt, Ligett, and McSherry (<a href="#ref-Hardt:Simple:NIPS:2012">2012</a>)</span> and <span class="citation">Hardt and Rothblum (<a href="#ref-Hardt:Multiplicative:FOCS10">2010</a>)</span> provide the methods and theory for publication through online query systems. One problem with these methods is that their implementation depends on the underlying data. By contrast, <span class="citation">C. Li et al. (<a href="#ref-li:matrix:VLDB:2015">2015</a>)</span> introduce the Matrix Mechanism, which is data-independent, but also can provide high accuracy for reasonable levels of privacy. This is one of the methods under development for use with the 2020 Decennial Census. Other formal privacy systems currently in use at Census are documented in <span class="citation">A. Machanavajjhala et al. (<a href="#ref-Machanavajjhala:OTM:ICDE:2008">2008</a>)</span> and <span class="citation">Haney et al. (<a href="#ref-HaneySIGMOD2017">2017</a>)</span>.</p>
+<p>Finally, so-called “privacy semantics” are mappings between mathematical definitions of privacy and plain language. These are really important for practitioners because there is usually a gap between how laypeople think about privacy and how it is defined in the CS literature. By way of introduction, we recommend <span class="citation">He, Machanavajjhala, and Ding (<a href="#ref-He:Blowfish:ACMSIGMOD:2014">2014</a>)</span>, <span class="citation">Jorgensen, Yu, and Cormode (<a href="#ref-jorgensen:personalized:ICDE:2015">2015</a>)</span>.</p>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-BrennerNissim:Impossibility:SIAM:2014">
+<p>Brenner, Hai, and Kobbi Nissim. 2014. “Impossibility of Differentially Private Universally Optimal Mechanisms.” <em>SIAM Journal on Computing</em> 43 (5): 1513–40. doi:<a href="https://doi.org/10.1137/110846671">10.1137/110846671</a>.</p>
+</div>
+<div id="ref-cummings:empirical:corr:2014">
+<p>Cummings, Rachel, Federico Echenique, and Adam Wierman. 2014. “The Empirical Implications of Privacy-Aware Choice.” <em>CoRR</em> abs/1401.0336. <a href="http://arxiv.org/abs/1401.0336" class="uri">http://arxiv.org/abs/1401.0336</a>.</p>
+</div>
+<div id="ref-Dinur:2003:RIW:773153.773173">
+<p>Dinur, Irit, and Kobbi Nissim. 2003. “Revealing Information While Preserving Privacy.” In <em>Proceedings of the Twenty-Second ACM SIGMOD-SIGACT-SIGART Symposium on Principles of Database Systems</em>, 202–10. PODS ’03. New York, NY, USA: ACM. doi:<a href="https://doi.org/10.1145/773153.773173">10.1145/773153.773173</a>.</p>
+</div>
+<div id="ref-Dworketal:2006">
+<p>Dwork, Cynthia, Frank McSherry, Kobbi Nissim, and Adam Smith. 2006. “Calibrating Noise to Sensitivity in Private Data Analysis.” In <em>Proceedings of the Third Conference on Theory of Cryptography</em>, 265–84. TCC’06. Berlin, Heidelberg: Springer-Verlag. doi:<a href="https://doi.org/10.1007/11681878_14">10.1007/11681878_14</a>.</p>
+</div>
+<div id="ref-Gupta:2012:ICP:2238936.2238961">
+<p>Gupta, Anupam, Aaron Roth, and Jonathan Ullman. 2012. “Iterative Constructions and Private Data Release.” In <em>Proceedings of the 9th International Conference on Theory of Cryptography</em>, 339–56. TCC’12. Berlin, Heidelberg: Springer-Verlag. doi:<a href="https://doi.org/10.1007/978-3-642-28914-9_19">10.1007/978-3-642-28914-9_19</a>.</p>
+</div>
+<div id="ref-HaneySIGMOD2017">
+<p>Haney, Samuel, Ashwin Machanavajjhala, John M. Abowd, Matthew Graham, Mark Kutzbach, and Lars Vilhuber. 2017. “Utility Cost of Formal Privacy for Releasing National Employer-Employee Statistics.” In <em>Proceedings of the 2017 ACM SIGMOD International Conference on Management of Data</em>. SIGMOD ’17. Association for Computing Machinery. doi:<a href="https://doi.org/10.1145/3035918.3035940">10.1145/3035918.3035940</a>.</p>
+</div>
+<div id="ref-Hardt:Multiplicative:FOCS10">
+<p>Hardt, Moritz, and Guy N. Rothblum. 2010. “A Multiplicative Weights Mechanism for Privacy-Preserving Data Analysis.” <em>2010 IEEE 51st Annual Symposium on Foundations of Computer Science</em>. Los Alamitos, CA, USA: IEEE Computer Society, 61–70. doi:<a href="https://doi.org/10.1109/FOCS.2010.85">10.1109/FOCS.2010.85</a>.</p>
+</div>
+<div id="ref-Hardt:Simple:NIPS:2012">
+<p>Hardt, Moritz, Katrina Ligett, and Frank McSherry. 2012. “A Simple and Practical Algorithm for Differentially Private Data Release.” In <em>Advances in Neural Information Processing Systems 25</em>, 2339–47. <a href="http://papers.nips.cc/paper/4548-a-simple-and-practical-algorithm-for-differentially-private-data-release.pdf" class="uri">http://papers.nips.cc/paper/4548-a-simple-and-practical-algorithm-for-differentially-private-data-release.pdf</a>.</p>
+</div>
+<div id="ref-He:Blowfish:ACMSIGMOD:2014">
+<p>He, Xi, Ashwin Machanavajjhala, and Bolin Ding. 2014. “Blowfish Privacy: Tuning Privacy-Utility Trade-Offs Using Policies.” In <em>Proceedings of the 2014 ACM SIGMOD International Conference on Management of Data</em>, 1447–58. Association for Computing Machinery. doi:<a href="https://doi.org/10.1145/2588555.2588581">10.1145/2588555.2588581</a>.</p>
+</div>
+<div id="ref-jorgensen:personalized:ICDE:2015">
+<p>Jorgensen, Z., T. Yu, and G. Cormode. 2015. “Conservative or Liberal? Personalized Differential Privacy.” In <em>Proceedings of the 2015 IEEE 31st International Conference on Data Engineering</em>, 1023–34. doi:<a href="https://doi.org/10.1109/ICDE.2015.7113353">10.1109/ICDE.2015.7113353</a>.</p>
+</div>
+<div id="ref-li:matrix:VLDB:2015">
+<p>Li, Chao, Gerome Miklau, Michael Hay, Andrew McGregor, and Vibhor Rastogi. 2015. “The Matrix Mechanism: Optimizing Linear Counting Queries Under Differential Privacy.” <em>The VLDB Journal</em> 24 (6): 757–81. doi:<a href="https://doi.org/10.1007/s00778-015-0398-x">10.1007/s00778-015-0398-x</a>.</p>
+</div>
+<div id="ref-Machanavajjhala:OTM:ICDE:2008">
+<p>Machanavajjhala, A., D. Kifer, J. Abowd, J. Gehrke, and L. Vilhuber. 2008. “Privacy: Theory Meets Practice on the Map.” In <em>Proceedings of the 2008 IEEE 24th International Conference on Data Engineering</em>, 277–86. doi:<a href="https://doi.org/10.1109/ICDE.2008.4497436">10.1109/ICDE.2008.4497436</a>.</p>
+</div>
+<div id="ref-Nissim:2012:PMD:2229012.2229073">
+<p>Nissim, Kobbi, Claudio Orlandi, and Rann Smorodinsky. 2012. “Privacy-Aware Mechanism Design.” In <em>Proceedings of the 13th ACM Conference on Electronic Commerce</em>, 774–89. EC ’12. New York, NY, USA: ACM. doi:<a href="https://doi.org/10.1145/2229012.2229073">10.1145/2229012.2229073</a>.</p>
+</div>
+<div id="ref-sweeney:2002">
+<p>Sweeney, L. 2002. “Achieving K-Anonymity Privacy Protection Using Generalization and Suppression.” <em>International Journal on Uncertainty, Fuzziness and Knowledge-Based Systems</em> 10 (5): 571–88. doi:<a href="https://doi.org/10.1142/s021848850200165x">10.1142/s021848850200165x</a>.</p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="background.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="policy-and-official-statistics.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/labordynamicsinstitute/privacy-bibliography/edit/master/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": [["Introductory_Readings_Privacy_Economists.pdf", "PDF"], ["sloan-privacy-bibliography.pdf", "Extensive PDF"]],
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"toolbar": {
+"position": "fixed"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

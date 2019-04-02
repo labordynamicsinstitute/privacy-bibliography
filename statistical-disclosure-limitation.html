@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>5 Statistical Disclosure Limitation | Introductory Readings in Formal Privacy for Economists</title>
+  <meta name="description" content="5 Statistical Disclosure Limitation | Introductory Readings in Formal Privacy for Economists" />
+  <meta name="generator" content="bookdown  and GitBook 2.6.7" />
+
+  <meta property="og:title" content="5 Statistical Disclosure Limitation | Introductory Readings in Formal Privacy for Economists" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="labordynamicsinstitute/privacy-bibliography" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="5 Statistical Disclosure Limitation | Introductory Readings in Formal Privacy for Economists" />
+  
+  
+  
+
+<meta name="author" content="John M. Abowd, Ian M. Schmutte, William Sexton, and Lars Vilhuber" />
+
+
+<meta name="date" content="2019-04-02" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="policy-and-official-statistics.html">
+<link rel="next" href="economics-of-privacy.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a></li>
+<li class="chapter" data-level="2" data-path="background.html"><a href="background.html"><i class="fa fa-check"></i><b>2</b> Background</a></li>
+<li class="chapter" data-level="3" data-path="formal-privacy.html"><a href="formal-privacy.html"><i class="fa fa-check"></i><b>3</b> Formal Privacy</a></li>
+<li class="chapter" data-level="4" data-path="policy-and-official-statistics.html"><a href="policy-and-official-statistics.html"><i class="fa fa-check"></i><b>4</b> Policy and Official Statistics</a></li>
+<li class="chapter" data-level="5" data-path="statistical-disclosure-limitation.html"><a href="statistical-disclosure-limitation.html"><i class="fa fa-check"></i><b>5</b> Statistical Disclosure Limitation</a></li>
+<li class="chapter" data-level="6" data-path="economics-of-privacy.html"><a href="economics-of-privacy.html"><i class="fa fa-check"></i><b>6</b> Economics of Privacy</a></li>
+<li class="chapter" data-level="7" data-path="value-of-privacy-and-data-accuracy.html"><a href="value-of-privacy-and-data-accuracy.html"><i class="fa fa-check"></i><b>7</b> Value of Privacy and Data Accuracy</a></li>
+<li class="chapter" data-level="8" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>8</b> References</a></li>
+<li class="divider"></li>
+<li class="chapter">©️ 2019 Abowd, Schmutte, Sexton, Vilhuber</li>
+<li class="chapter"><a href="https://creativecommons.org/licenses/by-nc/4.0/" alt="Link to CC BY-NC 4.0" target="_blank">
+<img alt="License: CC BY-NC 4.0" src="https://licensebuttons.net/l/by-nc/4.0/80x15.png" /></a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introductory Readings in Formal Privacy for Economists</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="statistical-disclosure-limitation" class="section level1">
+<h1><span class="header-section-number">5</span> Statistical Disclosure Limitation</h1>
+<p>Within most national statistical systems, the primary approach to protecting respondent privacy has been <em>statistical disclosure limitation</em> or SDL. <span class="citation">Anderson and Seltzer (<a href="#ref-anderson:challenges:JOS:2007">2007</a>)</span> describes the history of threats to confidentiality in the U.S. statistical system prior to 1965. <span class="citation">Fellegi (<a href="#ref-Fellegi:1972">1972</a>)</span> initiated the statistical analysis of data confidentiality. <span class="citation">Dalenius (<a href="#ref-Dalenius:Towards:1977">1977</a>)</span> recognized that statistical agencies would need to do more than just protect against direct disclosures, and thus warned against what he called inferential disclosure. His idea was formalized by <span class="citation">Duncan and Lambert (<a href="#ref-Duncan:Lambert:1986">1986</a>)</span>, and provides the ultimate rationale for formal privacy in national statistics.</p>
+<p><span class="citation">J. Abowd and Schmutte (<a href="#ref-abowdschmutteBPEA2015">2015</a>)</span> review the SDL methods currently in use and discuss their application to economic data. They argue that the analysis of SDL-laden data is inherently compromised because the details of the SDL protections cannot be disclosed. If they cannot be disclosed, their consequences for inference are unknowable, and, as they show, potentially large. <span class="citation">Garfinkel (<a href="#ref-Garfinkel:Deidentification:NIST:2015">2015</a>)</span> discusses techniques for de-identifying data and the many ways in which modern computing tools and a data-rich environment may render effective de-identification impossible. Finally, <span class="citation">Harris-Kojetin et al. (<a href="#ref-spwp22">2005</a>)</span> provides the most comprehensive review of SDL methods currently in use across the U.S. statistical system.</p>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-abowdschmutteBPEA2015">
+<p>Abowd, John, and Ian M. Schmutte. 2015. “Economic Analysis and Statistical Disclosure Limitation.” <em>Brookings Papers on Economic Activity</em>, 221–67. doi:<a href="https://doi.org/10.1353/eca.2016.0004">10.1353/eca.2016.0004</a>.</p>
+</div>
+<div id="ref-anderson:challenges:JOS:2007">
+<p>Anderson, Margo, and William Seltzer. 2007. “Challenges to the Confidentiality of US Federal Statistics, 1910-1965.” <em>Journal of Official Statistics</em> 23 (1): 1. <a href="https://www.scb.se/contentassets/ff271eeeca694f47ae99b942de61df83/challenges-to-the-confidentiality-of-u.s.-federal-statistics-1910-1965.pdf" class="uri">https://www.scb.se/contentassets/ff271eeeca694f47ae99b942de61df83/challenges-to-the-confidentiality-of-u.s.-federal-statistics-1910-1965.pdf</a>.</p>
+</div>
+<div id="ref-Dalenius:Towards:1977">
+<p>Dalenius, Tore. 1977. “Towards a Methodology for Statistical Disclosure Control.” <em>Statistik Tidskrift</em> 15: 429–44. doi:<a href="https://doi.org/10.1145/320613.320616">10.1145/320613.320616</a>.</p>
+</div>
+<div id="ref-Duncan:Lambert:1986">
+<p>Duncan, George, and Diane Lambert. 1986. “Disclosure-Limited Data Dissemination.” <em>Journal of the American Statistical Association</em> 81 (393): 10–18. doi:<a href="https://doi.org/10.1080/01621459.1986.10478229">10.1080/01621459.1986.10478229</a>.</p>
+</div>
+<div id="ref-Fellegi:1972">
+<p>Fellegi, I. P. 1972. “On the Question of Statistical Confidentiality.” <em>Journal of the American Statistical Association</em> 67 (337). American Statistical Association: 7–18. doi:<a href="https://doi.org/10.2307/2284695">10.2307/2284695</a>.</p>
+</div>
+<div id="ref-Garfinkel:Deidentification:NIST:2015">
+<p>Garfinkel, Simson. 2015. “De-Identification of Personal Information.” Internal Report 8053. Internal Report. National Institute of Standards; Technology. doi:<a href="https://doi.org/10.6028/nist.ir.8053">10.6028/nist.ir.8053</a>.</p>
+</div>
+<div id="ref-spwp22">
+<p>Harris-Kojetin, Brian A., Wendy L. Alvey, Lynda Carlson, Steven B. Cohen, Steve H. Cohen, Lawrence H. Cox, Robert E. Fay, et al. 2005. “Statistical Policy Working Paper 22: Report on Statistical Disclosure Limitation Methodology.” Research Report. U.S. Federal Committee on Statistical Methodology.</p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="policy-and-official-statistics.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="economics-of-privacy.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/labordynamicsinstitute/privacy-bibliography/edit/master/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": [["Introductory_Readings_Privacy_Economists.pdf", "PDF"], ["sloan-privacy-bibliography.pdf", "Extensive PDF"]],
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"toolbar": {
+"position": "fixed"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
