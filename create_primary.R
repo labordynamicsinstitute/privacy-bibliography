@@ -18,4 +18,4 @@ results <- sapply(as.list(global.libraries), pkgTest)
 library(RefManageR)
 library.bib <- RefManageR::ReadBib("library.bib")
 primary.bib <- library.bib[keywords="primary"]
-RefManageR::WriteBib(primary.bib,file="primary.bib")
+RefManageR::WriteBib(primary.bib,file="primary.dynamic.bib")
