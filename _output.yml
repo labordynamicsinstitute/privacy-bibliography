@@ -1,4 +1,4 @@
-citation_package: natbib
+citation_package: biblatex
 biblio-style: "authoryear"
 bookdown::gitbook:
   split_by: chapter
