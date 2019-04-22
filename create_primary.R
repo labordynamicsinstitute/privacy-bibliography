@@ -15,7 +15,11 @@ global.libraries <- c("RefManageR")
 
 results <- sapply(as.list(global.libraries), pkgTest)
 
-library(RefManageR)
 library.bib <- RefManageR::ReadBib("library.bib")
 primary.bib <- library.bib[keywords="primary"]
-RefManageR::WriteBib(primary.bib,file="primary.dynamic.bib")
+# This is used by the online system - it will be discarded and not committed
+RefManageR::WriteBib(primary.bib,file="primary_dynamic.bib")
+
+# manually execute: only if you want to permanently update the primary.bib
+#RefManageR::WriteBib(primary.bib,file="primary.bib")
+

@@ -18,3 +18,5 @@ _bookdown_files
 rsconnect
 _main.html
 .DS_Store
+primary_dynamic.bib
+_main.Rmd
