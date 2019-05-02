@@ -8,6 +8,23 @@ documentclass: article
 bibliography: [primary_dynamic.bib]
 link-citations: true
 csl: apa.csl
+references:
+- id: groves:harris-kojetin:2017
+  type: book
+  author:
+  - literal: National Academies of Sciences, Engineering, and Medicine
+  issued:
+  - year: 2017
+  title: 'Innovations in federal statistics: Combining data sources while protecting
+    privacy'
+  title-short: Innovations in federal statistics
+  collection-title: Committee on national statistics
+  publisher: National Academies Press
+  publisher-place: Washington, DC
+  keyword: official statistics, primary
+  URL: https://www.nap.edu/catalog/24652/innovations-in-federal-statistics-combining-data-sources-while-protecting-privacy
+  DOI: 10.17226/24652
+  ISBN: 978-0-309-45428-5
 ---
 ```{r create bib,echo=FALSE,include=FALSE}
 source("create_primary.R",echo=TRUE)
@@ -59,6 +76,14 @@ and @HaneySIGMOD2017.
 
 Finally, so-called "privacy semantics" are mappings between mathematical definitions of privacy and plain language. These are really important for practitioners because there is usually a gap between how laypeople think about privacy and how it is defined in the CS literature. By way of introduction, we recommend @He:Blowfish:ACMSIGMOD:2014, @jorgensen:personalized:ICDE:2015. 
 
+```{r comment, include=FALSE,eval=FALSE}
+# The reference @groves:harris-kojetin:2017 is problematic for citeproc
+# It was solved by doing the following:
+# Convert the primary_dynamic.bib into YAML format:
+# /path/to/Rstudio/version/pandoc/pandoc-citeproc --bib2yaml primary_dynamic.bib  > primary_dynamic.yaml
+# then extracting manually the @groves:harris-kojetin:2017 citation,
+# and formatting the author as a "literal" in the header of THIS file.
+```
 
 # Policy and Official Statistics
 In January 2017, the Committee on National Statistics released a special panel report focused on developing innovations in the U.S. statistical system focused, in part, on preserving privacy [@groves:harris-kojetin:2017]. 

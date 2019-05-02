@@ -1,0 +1,1718 @@
+---
+references:
+- id: WoodVanderbiltJ.Entertain.Technol.Law2018
+  type: article-journal
+  author:
+  - family: Wood
+    given: Alexandra
+  - family: Altman
+    given: Micah
+  - family: Bembenek
+    given: Aaron
+  - family: Bun
+    given: Mark
+  - family: Gaboardi
+    given: Marco
+  - family: Honaker
+    given: James
+  - family: Nissim
+    given: Kobbi
+  - family: O’Brien
+    given: David R.
+  - family: Steinke
+    given: Thomas
+  - family: Vadhan
+    given: Salil
+  issued:
+  - year: 2018
+  accessed:
+  - year: 2019
+    month: 4
+    day: 23
+  title: 'Differential Privacy: A Primer for a Non-Technical Audience'
+  title-short: Differential Privacy
+  container-title: Vanderbilt Journal of Entertainment and Technology Law
+  volume: '21'
+  issue: '1'
+  abstract: Differential privacy is a formal mathematical framework for quantifying
+    and managing privacy risks. It provides provable privacy protection against a
+    wide range of potential attacks, including those currently unforeseen. Differential
+    privacy is primarily studied in the context of the collection, analysis, and release
+    of aggregate statistics. These range from simple statistical estimations, such
+    as averages, to machine learning. Tools for differentially private analysis are
+    now in early stages of implementation and use across a variety of academic, industry,
+    and government settings. Interest in the concept is growing among potential users
+    of the tools, as well as within legal and policy communities, as it holds promise
+    as a potential approach to satisfying legal requirements for privacy protection
+    when handling personal information. In particular, differential privacy may be
+    seen as a technical solution for analyzing and sharing data while protecting the
+    privacy of individuals in accordance with existing legal or policy requirements
+    for de-identification or disclosure limitation.This primer seeks to introduce
+    the concept of differential privacy and its privacy implications to non-technical
+    audiences. It provides a simplified and informal, but mathematically accurate,
+    description of differential privacy. Using intuitive illustrations and limited
+    mathematical formalism, it discusses the definition of differential privacy, how
+    differential privacy addresses privacy risks, how differentially private analyses
+    are constructed, and how such analyses can be used in practice. A series of illustrations
+    is used to show how practitioners and policymakers can conceptualize the guarantees
+    provided by differential privacy. These illustrations are also used to explain
+    related concepts, such as composition (the accumulation of risk across multiple
+    analyses), privacy loss parameters, and privacy budgets. This primer aims to provide
+    a foundation that can guide future decisions when analyzing and sharing statistical
+    data about individuals, informing individuals about the privacy protection they
+    will be afforded, and designing policies and regulations for robust privacy protection.
+  keyword: formal privacy, background, primary
+  URL: http://www.jetlaw.org/journal-archives/volume-21/volume-21-issue-1/differential-privacy-a-primer-for-a-non-technical-audience/
+
+- id: commerce.gov_2018
+  type: no-type
+  author:
+  - literal: U.S. Department of Commerce
+  issued:
+  - year: 2018
+    month: 3
+  title: <span class="nocase">U.S. Department of Commerce Announces Reinstatement
+    of Citizenship Question to the 2020 Decennial Census</span>
+  publisher: https://www.commerce.gov/news/press-releases/2018/03/us-department-commerce-announces-reinstatement-citizenship-question-2020
+  note: 'Accessed: March 13, 2018'
+  keyword: policy, primary
+
+- id: Harvard:DataPrivacyLab
+  type: no-type
+  author:
+  - literal: Harvard Data Privacy Lab
+  issued:
+  - year: 2018
+  title: Harvard Data Privacy Lab Homepage
+  note: 'Accessed: 2018-03-17'
+  keyword: background, primary
+  URL: https://dataprivacylab.org/
+
+- id: Harvard:PrivacyTools
+  type: no-type
+  author:
+  - literal: Harvard University Privacy Tools Project
+  issued:
+  - year: 2019
+  title: Homepage
+  note: 'Accessed: 2019-04-01'
+  keyword: background, primary
+  URL: https://privacytools.seas.harvard.edu/
+
+- id: Garfinkel:Deidentification:NIST:2015
+  type: report
+  author:
+  - family: Garfinkel
+    given: Simson
+  issued:
+  - year: 2015
+    month: 10
+  title: De-Identification of personal information
+  collection-title: Internal report
+  publisher: National Institute of Standards; Technology; National Institute of Standards;
+    Technology
+  genre: Internal Report
+  keyword: statistical disclosure limitation, SDL, primary
+  number: '8053'
+  URL: http://costic1206.uvigo.es/sites/default/files/Documents_of_Interest/NISTIR%208053.pdf
+  DOI: 10.6028/nist.ir.8053
+
+- id: BrennerNissim:Impossibility:SIAM:2014
+  type: article-journal
+  author:
+  - family: Brenner
+    given: Hai
+  - family: Nissim
+    given: Kobbi
+  issued:
+  - year: 2014
+  title: Impossibility of differentially private universally optimal mechanisms
+  container-title: SIAM Journal on Computing
+  page: 1513-1540
+  volume: '43'
+  issue: '5'
+  keyword: Formal Privacy, primary
+  URL: "\n        https://doi.org/10.1137/110846671\n"
+  DOI: 10.1137/110846671
+
+- id: Ghosh:Auction:GEB:2015
+  type: article-journal
+  author:
+  - family: Ghosh
+    given: Arpita
+  - family: Roth
+    given: Aaron
+  issued:
+  - year: 2015
+  title: Selling privacy at auction
+  container-title: Games and Economic Behavior
+  page: 334-346
+  volume: '91'
+  keyword: value of privacy, primary
+  URL: https://www.sciencedirect.com/science/article/pii/S0899825613000961
+  DOI: 10.1016/j.geb.2013.06.013
+
+- id: Duchi:Minimax:IEEE:2013
+  type: paper-conference
+  author:
+  - family: Duchi
+    given: John C.
+  - family: Jordan
+    given: Michael I.
+  - family: Wainwright
+    given: Martin J.
+  issued:
+  - year: 2013
+  title: Local privacy and statistical minimax rates
+  container-title: Proceedings of the 2013 ieee 54th annual symposium on foundations
+    of computer science
+  collection-title: FOCS ’13
+  publisher: IEEE Computer Society
+  publisher-place: Washington, DC, USA
+  page: 429-438
+  keyword: Differential privacy, minimax rates, estimation, formal privacy, primary
+  URL: http://dx.doi.org/10.1109/FOCS.2013.53
+  DOI: 10.1109/FOCS.2013.53
+  ISBN: 978-0-7695-5135-7
+
+- id: Spencer:Optimal:JASA:1985
+  type: article-journal
+  author:
+  - family: Spencer
+    given: Bruce D.
+  issued:
+  - year: 1985
+  title: Optimal data quality
+  container-title: Journal of the American Statistical Association
+  page: 564-573
+  volume: '80'
+  issue: '391'
+  abstract: Abstract Commonly accepted hypotheses guide practical determination of
+    needed data quality; for example, as the probability that a decision uses data
+    increases, the needed data quality increases, and the more rudimentary the uses
+    of the data, the less data quality is needed. These hypotheses are formally defined
+    and analyzed in some decision-theoretic models. Conditions under which the hypotheses
+    hold and fail are examined. Particular attention is given to determining needed
+    data quality when the users of the data behave nonoptimally.
+  keyword: value of data, data unions, primary
+  URL: "\n        http://www.tandfonline.com/doi/abs/10.1080/01621459.1985.10478155\n\n"
+  DOI: 10.1080/01621459.1985.10478155
+
+- id: Proc:NSF-Sloan:2017
+  type: book
+  editor:
+  - family: Schmutte
+    given: Ian M.
+  - family: Vilhuber
+    given: Lars
+  issued:
+  - year: 2017
+    month: 1
+  title: Proceedings from the 2016 NSF-Sloan <span class="nocase">Workshop on Practical
+    Privacy</span>
+  collection-title: Labor dynamics institute
+  publisher-place: Cornell University
+  keyword: official statistics, primary
+  URL: https://digitalcommons.ilr.cornell.edu/ldi/33/
+
+- id: Ohm:Broken:UCLALR:2010
+  type: article-journal
+  author:
+  - family: Ohm
+    given: Paul
+  issued:
+  - year: 2010
+  title: 'Broken promises of privacy: Responding to the surprising failure of anonymization'
+  title-short: Broken promises of privacy
+  container-title: UCLA Law Review
+  page: '1701'
+  volume: '57'
+  keyword: economics of privacy, primary
+
+- id: Hsu:EconomicEpsilon:IEEE:2014
+  type: article-journal
+  author:
+  - family: Hsu
+    given: Justin
+  - family: Gaboardi
+    given: Marco
+  - family: Haeberlen
+    given: Andreas
+  - family: Khanna
+    given: Sanjeev
+  - family: Narayan
+    given: Arjun
+  - family: Pierce
+    given: Benjamin C.
+  - family: Roth
+    given: Aaron
+  issued:
+  - year: 2014
+    month: 7
+  title: 'Differential privacy: An economic method for choosing epsilon'
+  title-short: Differential privacy
+  container-title: 2014 IEEE 27th Computer Security Foundations Symposium
+  page: 398-410
+  keyword: data analysis;data privacy;Epsilon;data analyst;differential privacy;differentially
+    private algorithms;economic method;privacy guarantee;Accuracy;Analytical models;Cost
+    function;Data models;Data privacy;Databases;Privacy;Differential Privacy, economics
+    of privacy, primary
+  URL: https://ieeexplore.ieee.org/document/6957125
+  DOI: 10.1109/CSF.2014.35
+  ISSN: 1063-6900
+
+- id: Seeskin:Spencer:Effects:2015
+  type: article-journal
+  author:
+  - family: Spencer
+    given: Bruce David
+  - family: Seeskin
+    given: Zachary H.
+  issued:
+  - year: 2015
+  title: Effects of Census accuracy on apportionment of Congress and allocations of
+    federal funds
+  container-title: JSM Proceedings, Government Statistics Section
+  page: 3061-3075
+  keyword: value of data, primary
+  URL: https://www.ipr.northwestern.edu/publications/papers/2015/ipr-wp-15-05.html
+
+- id: abowdschmutteBPEA2015
+  type: article-journal
+  author:
+  - family: Abowd
+    given: John M.
+  - family: Schmutte
+    given: Ian M.
+  issued:
+  - year: 2015
+  title: Economic analysis and statistical disclosure limitation
+  container-title: Brookings Papers on Economic Activity
+  page: 221-267
+  note: Spring
+  keyword: Statistical Disclosure Limitation, SDL, primary
+  DOI: 10.1353/eca.2016.0004
+
+- id: acquisti:taylor:wagman:2015
+  type: article-journal
+  author:
+  - family: Acquisti
+    given: Alessandro
+  - family: Taylor
+    given: Curtis
+  - family: Wagman
+    given: Liad
+  issued:
+  - year: 2016
+    month: 6
+  title: The economics of privacy
+  container-title: Journal of Economic Literature
+  page: 442-492
+  volume: '54'
+  issue: '2'
+  keyword: Economics of Privacy, primary
+  URL: http://www.aeaweb.org/articles?id=10.1257/jel.54.2.442
+  DOI: 10.1257/jel.54.2.442
+
+- id: anderson:challenges:JOS:2007
+  type: article-journal
+  author:
+  - family: Anderson
+    given: Margo
+  - family: Seltzer
+    given: William
+  issued:
+  - year: 2007
+  title: Challenges to the confidentiality of US federal statistics, 1910-1965
+  container-title: Journal of Official Statistics
+  page: '1'
+  volume: '23'
+  issue: '1'
+  keyword: Statistical Disclosure Limitation, SDL, primary
+  URL: https://www.scb.se/contentassets/ff271eeeca694f47ae99b942de61df83/challenges-to-the-confidentiality-of-u.s.-federal-statistics-1910-1965.pdf
+
+- id: CardAER2012
+  type: article-journal
+  author:
+  - family: Card
+    given: David
+  - family: Mas
+    given: Alexandre
+  - family: Moretti
+    given: Enrico
+  - family: Saez
+    given: Emmanuel
+  issued:
+  - year: 2012
+    month: 5
+  title: 'Inequality at work: The effect of peer salaries on job satisfaction'
+  title-short: Inequality at work
+  container-title: American Economic Review
+  page: 2981-3003
+  volume: '102'
+  issue: '6'
+  keyword: value of data, primary
+  URL: http://www.aeaweb.org/articles?id=10.1257/aer.102.6.2981
+  DOI: 10.1257/aer.102.6.2981
+
+- id: Childs:Confidence:SP:2015
+  type: article-journal
+  author:
+  - family: Childs
+    given: Jennifer Hunter
+  - family: King
+    given: Ryan
+  - family: Fobia
+    given: Aleia
+  issued:
+  - year: 2015
+  title: Confidence in U.S. federal statistical agencies
+  container-title: Survey Practice
+  volume: '8'
+  issue: '5'
+  abstract: At a time when public confidence in the Federal government is at an all-time
+    low, Federal statistical agencies were interested in knowing whether their image
+    would suffer as well. Using data gathered in the Gallup Daily Poll to answer this
+    question, we found that, as level of knowledge about federal statistics increases
+    and for data users, respondents’ discrimination among government entities seems
+    to increase – the strength of the relationships between confidence in the Federal
+    Statistical System, on one hand, and in Congress and the Military, on the other,
+    decreases. In a time when confidence in Congress is particularly poor, increasing
+    knowledge about the statistical system and increasing the public’s use of statistical
+    data, through programs like "Statistics in Schools" could help people differentiate
+    between sectors of the government, thus increasing confidence in the Federal Statistical
+    System.
+  keyword: Confidence in Institutions; Trust in Government; Trust in Official Statistics,
+    official statistics, primary
+  URL: https://www.surveypractice.org/article/2833-confidence-in-u-s-federal-statistical-agencies
+  DOI: 10.29115/sp-2015-0024
+  ISSN: 2168-0094
+
+- id: Dalenius:Towards:1977
+  type: article-journal
+  author:
+  - family: Dalenius
+    given: Tore
+  issued:
+  - year: 1977
+  title: Towards a methodology for statistical disclosure control
+  container-title: Statistik Tidskrift
+  page: 429-444
+  volume: '15'
+  keyword: statistical disclosure limitation, SDL, primary
+  URL: https://dl.acm.org/citation.cfm?doid=320613.320616
+  DOI: 10.1145/320613.320616
+
+- id: Dinur:2003:RIW:773153.773173
+  type: paper-conference
+  author:
+  - family: Dinur
+    given: Irit
+  - family: Nissim
+    given: Kobbi
+  issued:
+  - year: 2003
+  title: Revealing information while preserving privacy
+  container-title: Proceedings of the Twenty-second ACM SIGMOD-SIGACT-SIGART Symposium
+    on Principles of Database Systems
+  collection-title: PODS ’03
+  publisher: ACM
+  publisher-place: New York, NY, USA
+  page: 202-210
+  keyword: data reconstruction, integrity and security, subset-sums with noise, formal
+    privacy, primary
+  URL: http://doi.acm.org/10.1145/773153.773173
+  DOI: 10.1145/773153.773173
+  ISBN: 1-58113-670-6
+
+- id: Duncan:Lambert:1986
+  type: article-journal
+  author:
+  - family: Duncan
+    given: George
+  - family: Lambert
+    given: Diane
+  issued:
+  - year: 1986
+    month: 3
+  title: Disclosure-limited data dissemination
+  container-title: Journal of the American Statistical Association
+  page: 10-18
+  volume: '81'
+  issue: '393'
+  keyword: statistical disclosure limitation, SDL, primary
+  URL: https://www.tandfonline.com/doi/abs/10.1080/01621459.1986.10478229
+  DOI: 10.1080/01621459.1986.10478229
+
+- id: Dworketal:2006
+  type: paper-conference
+  author:
+  - family: Dwork
+    given: Cynthia
+  - family: McSherry
+    given: Frank
+  - family: Nissim
+    given: Kobbi
+  - family: Smith
+    given: Adam
+  issued:
+  - year: 2006
+  title: <span class="nocase">Calibrating Noise to Sensitivity in Private Data Analysis</span>
+  container-title: Proceedings of the Third conference on Theory of Cryptography
+  collection-title: TCC06
+  publisher: Springer-Verlag
+  publisher-place: Berlin, Heidelberg
+  page: 265-284
+  note: DOI:10.1007/11681878\_14
+  keyword: formal privacy, primary
+  URL: https://link.springer.com/chapter/10.1007%2F11681878_14
+  DOI: 10.1007/11681878_14
+  ISBN: 978-3-540-32731-8
+
+- id: prewitt:2011
+  type: article-journal
+  author:
+  - family: Prewitt
+    given: Kenneth
+  issued:
+  - year: 2011
+  title: <span class="nocase">Why It Matters to Distinguish Between Privacy & Confidentiality</span>
+  container-title: Journal of Privacy and Confidentiality
+  page: 41-47
+  volume: '3'
+  issue: '2'
+  keyword: official statistics, primary
+  URL: https://journalprivacyconfidentiality.org/index.php/jpc/article/view/600
+  DOI: 10.29012/jpc.v3i2.600
+
+- id: Dwork:Roth:journal:version:2014
+  type: article-journal
+  author:
+  - family: Dwork
+    given: Cynthia
+  - family: Roth
+    given: Aaron
+  issued:
+  - year: 2014
+  title: <span class="nocase">The Algorithmic Foundations of Differential Privacy</span>
+  container-title: Foundations and Trends in Theoretical Computer Science
+  page: 211-407
+  volume: '9'
+  issue: 3-4
+  keyword: formal privacy, background, primary
+  URL: http://www.nowpublishers.com/articles/foundations-and-trends-in-theoretical-computer-science/TCS-042
+  DOI: 10.1561/0400000042
+  ISSN: 1551-305X
+
+- id: Fellegi:1972
+  type: article-journal
+  author:
+  - family: Fellegi
+    given: I. P.
+  issued:
+  - year: 1972
+  title: On the question of statistical confidentiality
+  container-title: Journal of the American Statistical Association
+  publisher: American Statistical Association
+  page: 7-18
+  volume: '67'
+  issue: '337'
+  abstract: In Section 1 the nature of statistical confidentiality is explored, i.e.,
+    its essential role in the collection of data by statistical offices, its relationship
+    to privacy and the need for increased attention to potential statistical disclosures
+    because of the increased tabulation and dissemination capabilities of statistical
+    offices. In Section 2 a definition of inadvertent direct disclosure is provided
+    as well as a theorem concerning a test for residual disclosure of tabulations.
+    In Section 3 different media and methods of data dissemination are considered
+    from the point of view of potential for statistical disclosure.
+  keyword: statistical disclosure limiation, SDL, primary
+  URL: https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1972.10481199
+  DOI: 10.2307/2284695
+  ISSN: 0162-1459
+
+- id: Goroff2015
+  type: article-journal
+  author:
+  - family: Goroff
+    given: Daniel L.
+  issued:
+  - year: 2015
+  title: <span class="nocase">Balancing privacy versus accuracy in research protocols</span>
+  container-title: Science
+  page: 479-480
+  volume: '347'
+  issue: '6221'
+  abstract: Designing protocols for research using personal data entails trade-offs
+    between accuracy and privacy. Any suggestion that would make empirical work less
+    precise, open, representative, or replicable seems contrary to the needs and values
+    of science. A careful reexamination has begun of what accuracy? or privacy? should
+    mean and how research plans can balance these objectives.
+  keyword: value of privacy, primary
+  URL: http://www.sciencemag.org/content/347/6221/479$\backslash$nhttp://www.ncbi.nlm.nih.gov/pubmed/25635075$\backslash$nhttp://www.sciencemag.org/content/347/6221/479.full.pdf$\backslash$nhttp://www.sciencemag.org/content/347/6221/479.summary
+  DOI: 10.1126/science.aaa3483
+  PMID: '25635075'
+
+- id: Gupta:2012:ICP:2238936.2238961
+  type: paper-conference
+  author:
+  - family: Gupta
+    given: Anupam
+  - family: Roth
+    given: Aaron
+  - family: Ullman
+    given: Jonathan
+  issued:
+  - year: 2012
+  title: Iterative constructions and private data release
+  container-title: Proceedings of the 9th International Conference on Theory of Cryptography
+  collection-title: TCC12
+  publisher: Springer-Verlag
+  publisher-place: Berlin, Heidelberg
+  page: 339-356
+  keyword: formal privacy, primary
+  URL: https://link.springer.com/chapter/10.1007%2F978-3-642-28914-9_19
+  DOI: 10.1007/978-3-642-28914-9_19
+  ISBN: 978-3-642-28913-2
+
+- id: Hardt:Multiplicative:FOCS10
+  type: article-journal
+  author:
+  - family: Hardt
+    given: Moritz
+  - family: Rothblum
+    given: Guy N.
+  issued:
+  - year: 2010
+  title: A multiplicative weights mechanism for privacy-preserving data analysis
+  container-title: 2010 IEEE 51st Annual Symposium on Foundations of Computer Science
+  publisher: IEEE Computer Society
+  publisher-place: Los Alamitos, CA, USA
+  page: 61-70
+  abstract: We consider statistical data analysis in the interactive setting. In this
+    setting a trusted curator maintains a database of sensitive information about
+    individual participants, and releases privacy-preserving answers to queries as
+    they arrive. Our primary contribution is a new differentially private multiplicative
+    weights mechanism for answering a large number of interactive counting (or linear)
+    queries that arrive online and may be adaptively chosen. This is the first mechanism
+    with worst-case accuracy guarantees that can answer large numbers of interactive
+    queries and is efficient (in terms of the runtime’s dependence on the data universe
+    size). The error is asymptotically optimal in its dependence on the number of
+    participants, and depends only logarithmically on the number of queries being
+    answered. The running time is nearly linear in the size of the data universe.
+    As a further contribution, when we relax the utility requirement and require accuracy
+    only for databases drawn from a rich class of databases, we obtain exponential
+    improvements in running time. Even in this relaxed setting we continue to guarantee
+    privacy for any input database. Only the utility requirement is relaxed. Specifically,
+    we show that when the input database is drawn from a smooth distribution - a distribution
+    that does not place too much weight on any single data item - accuracy remains
+    as above, and the running time becomes poly-logarithmic in the data universe size.
+    The main technical contributions are the application of multiplicative weights
+    techniques to the differential privacy setting, a new privacy analysis for the
+    interactive setting, and a technique for reducing data dimensionality for databases
+    drawn from smooth distributions.
+  keyword: data dimensionality reduction,data universe,differ, formal privacy, primary
+  URL: https://ieeexplore.ieee.org/document/5670948
+  DOI: 10.1109/FOCS.2010.85
+  ISBN: 978-1-4244-8525-3
+  ISSN: 0272-5428
+
+- id: He:Blowfish:ACMSIGMOD:2014
+  type: chapter
+  author:
+  - family: He
+    given: Xi
+  - family: Machanavajjhala
+    given: Ashwin
+  - family: Ding
+    given: Bolin
+  issued:
+  - year: 2014
+  title: 'Blowfish privacy: Tuning privacy-utility trade-offs using policies'
+  title-short: Blowfish privacy
+  container-title: Proceedings of the acm sigmod international conference on management
+    of data
+  publisher: Association for Computing Machinery
+  page: 1447-1458
+  keyword: Blowfish privacy, Differential privacy, Privacy, formal privacy, primary
+  URL: https://dl.acm.org/citation.cfm?doid=2588555.2588581
+  DOI: 10.1145/2588555.2588581
+  ISBN: '9781450323765'
+
+- id: Heffetz2014
+  type: article-journal
+  author:
+  - family: Heffetz
+    given: Ori
+  - family: Ligett
+    given: Katrina
+  issued:
+  - year: 2014
+  title: Privacy and data-based research
+  container-title: Journal of Economic Perspectives
+  page: 75-98
+  volume: '28'
+  issue: '2'
+  note: Spring
+  keyword: background, primary
+  URL: https://www.aeaweb.org/articles?id=10.1257/jep.28.2.75
+  DOI: 10.1257/jep.28.2.75
+
+- id: hirshleifer1980privacy
+  type: article-journal
+  author:
+  - family: Hirshleifer
+    given: Jack
+  issued:
+  - year: 1980
+  title: 'Privacy: Its origin, function, and future'
+  title-short: Privacy
+  container-title: The Journal of Legal Studies
+  page: 649-664
+  keyword: economics of privacy, primary
+  URL: https://www.journals.uchicago.edu/doi/abs/10.1086/467659?journalCode=jls
+  DOI: 10.1086/467659
+
+- id: Holan2010
+  type: article-journal
+  author:
+  - family: Holan
+    given: Scott H.
+  - family: Toth
+    given: Daniell
+  - family: Ferreira
+    given: Marco A. R.
+  - family: Karr
+    given: Alan F.
+  issued:
+  - year: 2010
+  title: Bayesian multiscale multiple imputation with implications for data confidentiality
+  container-title: Journal of the American Statistical Association
+  page: 564-577
+  volume: '105'
+  issue: '490'
+  abstract: Many scientific, sociological, and economic applications present data
+    that are collected on multiple scales of resolution. One particular form of multiscale
+    data arises when data are aggregated across different scales both longitudinally
+    and by economic sector. Frequently, such datasets experience missing observations
+    in a manner that they can be accurately imputed, while respecting the constraints
+    imposed by the multiscale nature of the data, using the method we propose known
+    as Bayesian multiscale multiple imputation. Our approach couples dynamic linear
+    models with a novel imputation step based on singular normal distribution theory.
+    Although our method is of independent interest, one important implication of such
+    methodology is its potential effect on confidential databases protected by means
+    of cell suppression. In order to demonstrate the proposed methodology and to assess
+    the effectiveness of disclosure practices in longitudinal databases, we conduct
+    a large-scale empirical study using the U.S. Bureau of Labor Statistics Quarterly
+    Census of Employment and Wages (QCEW). During the course of our empirical investigation
+    it is determined that several of the predicted cells are within 1% accuracy, thus
+    causing potential concerns for data confidentiality.
+  keyword: cell suppression,disclosure,dynamic linear models,missing data,multiscale
+    modeling,qcew, official statistics, primary
+  URL: http://www.tandfonline.com/doi/abs/10.1198/jasa.2009.ap08629
+  DOI: 10.1198/jasa.2009.ap08629
+  ISSN: 0162-1459
+
+- id: Li2014
+  type: article-journal
+  author:
+  - family: Li
+    given: Chao
+  - family: Li
+    given: Daniel Yang
+  - family: Miklau
+    given: Gerome
+  - family: Suciu
+    given: D A N
+  issued:
+  - year: 2014
+  title: A theory of pricing private data
+  container-title: ACM Transactions on Database Systems
+  page: 34:1-34:27
+  volume: '39'
+  issue: '4'
+  note: Pages 34:1–34:27
+  keyword: arbitrage,data pricing,differential privacy, value of privacy, primary
+  URL: https://dl.acm.org/citation.cfm?doid=2448496.2448502
+  DOI: 10.1145/2448496.2448502
+  ISBN: '9781450315982'
+  ISSN: 0362-5915
+
+- id: Machanavajjhala:2007:LDP:1217299.1217302
+  type: article-journal
+  author:
+  - family: Machanavajjhala
+    given: Ashwin
+  - family: Kifer
+    given: Daniel
+  - family: Gehrke
+    given: Johannes
+  - family: Venkitasubramaniam
+    given: Muthuramakrishnan
+  issued:
+  - year: 2007
+    month: 3
+  title: 'L-diversity: Privacy beyond k-anonymity'
+  title-short: L-diversity
+  container-title: ACM Transactions on Knowledge Discovery from Data
+  publisher: ACM
+  publisher-place: New York, NY, USA
+  volume: '1'
+  issue: '1'
+  abstract: In this article, we show using two simple attacks that a k-anonymized
+    dataset has some subtle but severe privacy problems. First, an attacker can discover
+    the values of sensitive attributes when there is little diversity in those sensitive
+    attributes. This is a known problem. Second, attackers often have background knowledge,
+    and we show that k-anonymity does not guarantee privacy against attackers using
+    background knowledge. We give a detailed analysis of these two attacks, and we
+    propose a novel and powerful privacy criterion called L-diversity that can defend
+    against such attacks. In addition to building a formal foundation for L-diversity,
+    we show in an experimental evaluation that L-diversity is practical and can be
+    implemented efficiently.
+  keyword: ł-diversity, primary, k-anonymity, Data privacy, privacy-preserving data
+    publishing, formal privacy
+  URL: http://doi.acm.org/10.1145/1217299.1217302
+  DOI: 10.1145/1217299.1217302
+  ISSN: 1556-4681
+
+- id: Manski2014
+  type: article-journal
+  author:
+  - family: Manski
+    given: Charles F.
+  issued:
+  - year: 2015
+    month: 9
+  title: 'Communicating uncertainty in official economic statistics: An appraisal
+    fifty years after morgenstern'
+  title-short: Communicating uncertainty in official economic statistics
+  container-title: Journal of Economic Literature
+  page: 631-53
+  volume: '53'
+  issue: '3'
+  keyword: official statistics, primary
+  URL: https://www.aeaweb.org/articles?id=10.1257/jel.53.3.631
+  DOI: 10.1257/jel.53.3.631
+
+- id: Nissim:2012:PMD:2229012.2229073
+  type: paper-conference
+  author:
+  - family: Nissim
+    given: Kobbi
+  - family: Orlandi
+    given: Claudio
+  - family: Smorodinsky
+    given: Rann
+  issued:
+  - year: 2012
+  title: Privacy-aware mechanism design
+  container-title: Proceedings of the 13th acm conference on electronic commerce
+  collection-title: EC ’12
+  publisher: ACM
+  publisher-place: New York, NY, USA
+  page: 774-789
+  keyword: differential privacy, mechanism design, privacy, formal privacy, primary
+  URL: http://doi.acm.org/10.1145/2229012.2229073
+  DOI: 10.1145/2229012.2229073
+  ISBN: 978-1-4503-1415-2
+
+- id: Nissim2014
+  type: article-journal
+  author:
+  - family: Nissim
+    given: Kobbi
+  - family: Vadhan
+    given: Salil
+  - family: Xiao
+    given: David
+  issued:
+  - year: 2014
+  title: <span class="nocase">Redrawing the Boundaries on Purchasing Data from Privacy-sensitive
+    Individuals</span>
+  container-title: Proceedings of the 5th Conference on Innovations in Theoretical
+    Computer Science
+  page: 411-422
+  abstract: We prove new positive and negative results concerning the existence of
+    truthful and individually rational mechanisms for purchasing private data from
+    individuals with unbounded and sensitive privacy preferences. We strengthen the
+    impossibility results of Ghosh and Roth (EC 2011) by extending it to a much wider
+    class of privacy valuations. In particular, these include privacy valuations that
+    are based on ({$\backslash$epsilon}, {$\backslash$delta})-differentially private
+    mechanisms for non-zero {$\backslash$delta}, ones where the privacy costs are
+    measured in a per-database manner (rather than taking the worst case), and ones
+    that do not depend on the payments made to players (which might not be observable
+    to an adversary). To bypass this impossibility result, we study a natural special
+    setting where individuals have mono- tonic privacy valuations, which captures
+    common contexts where certain values for private data are expected to lead to
+    higher valuations for privacy (e.g. having a particular disease). We give new
+    mech- anisms that are individually rational for all players with monotonic privacy
+    valuations, truthful for all players whose privacy valuations are not too large,
+    and accurate if there are not too many players with too-large privacy valuations.
+    We also prove matching lower bounds showing that in some respects our mechanism
+    cannot be improved significantly.
+  keyword: differential privacy,mechanism design, value of privacy, primary
+  URL: http://doi.acm.org/10.1145/2554797.2554835
+  DOI: 10.1145/2554797.2554835
+  ISBN: 978-1-4503-2698-8
+
+- id: posner1981economics
+  type: article-journal
+  author:
+  - family: Posner
+    given: Richard A.
+  issued:
+  - year: 1981
+  title: The economics of privacy
+  container-title: The American economic review
+  publisher: JSTOR
+  page: 405-409
+  keyword: economics of privacy, primary
+
+- id: samuelson:1954
+  type: article-journal
+  author:
+  - family: Samuelson
+    given: Paul A.
+  issued:
+  - year: 1954
+  title: The pure theory of public expenditure
+  container-title: Review of Economics and Statistics
+  page: 387-389
+  volume: '37'
+  keyword: public goods, primary
+
+- id: stigler1980introduction
+  type: article-journal
+  author:
+  - family: Stigler
+    given: George J.
+  issued:
+  - year: 1980
+    month: 12
+  title: An introduction to privacy in economics and politics
+  container-title: Journal of Legal Studies
+  page: 623-644
+  volume: '9'
+  issue: '4'
+  abstract: The enormous increase in interest in privacy in our society is evident
+    in the public press and in the statute books. In some respects this interest in
+    privacy is paradoxical, for the average citizen has more privacy-more areas of
+    his life in which his behavior is not known by his fellows-than ever before. He
+    lives in a large city, where no one is his keeper; in the small towns of former
+    times privacy was won only by the cleverest people. He works in large organizations,
+    and indeed he (or, more likely, some self-appointed spokesman) laments his alienation.
+    He can shake off most of his past simply by moving-to the South, the West-and
+    no earlier generation except the immigrant waves before World War I was as mobile.
+  keyword: economics of privacy, primary
+  DOI: 10.2307/724174
+  ISSN: 0047-2530
+
+- id: sweeney:2002
+  type: article-journal
+  author:
+  - family: Sweeney
+    given: L
+  issued:
+  - year: 2002
+  title: Achieving k-anonymity privacy protection using generalization and suppression
+  container-title: International Journal on Uncertainty, Fuzziness and Knowledge-based
+    Systems
+  page: 571-588
+  volume: '10'
+  issue: '5'
+  keyword: formal privacy, primary
+  DOI: 10.1142/s021848850200165x
+
+- id: Taylor:Consumer:RAND:2004
+  type: article-journal
+  author:
+  - family: Taylor
+    given: Curtis R.
+  issued:
+  - year: 2004
+  title: Consumer privacy and the market for customer information
+  container-title: The RAND Journal of Economics
+  publisher: Wiley on behalf of RAND Corporation
+  page: 631-650
+  volume: '35'
+  issue: '4'
+  abstract: I investigate consumer privacy and the market for customer information
+    in electronic retailing. The value of customer information derives from the ability
+    of Internet firms to identify individual consumers and charge them personalized
+    prices. I study two settings, a confidential regime in which the sale of customer
+    information is not possible, and a disclosure regime in which one firm may compile
+    and sell a customer list to another firm that uses it to price discriminate. Welfare
+    comparisons depend critically on whether consumers anticipate sale of the list
+    and on demand elasticity.
+  keyword: value of data, data union, primary
+  URL: http://doi.wiley.com/10.2307/1593765
+  DOI: 10.2307/1593765
+  ISSN: 0741-6261
+
+- id: cipsea2002
+  type: no-type
+  author:
+  - literal: 44 U.S. Code
+  issued:
+  - year: 2002
+  title: Confidential Information Protection and Statistical Efficency Act
+  note: Pub. L. 107-347, title V, Dec. 17, 2002, 116 Stat. 2962 ( 44 U.S.C. 3501 note)
+  keyword: policy, background, primary
+  URL: http://www.law.cornell.edu/topn/confidential_information_protection_and_statistical_efficiency_act_of_2002
+
+- id: cipsea
+  type: no-type
+  author:
+  - literal: H.R.4174
+  issued:
+  - year: 2018
+  title: Confidential Information Protection and Statistical Efficency Act
+  note: Pub. L. 115-435, title III, Jan 14 2019, 132 Stat. 5529
+  keyword: policy, background, primary
+  URL: https://www.congress.gov/bill/115th-congress/house-bill/4174
+
+- id: title13
+  type: no-type
+  author:
+  - literal: 13 U.S. Code
+  issued:
+  - year: 1954
+  title: 'USC: Title 13 - Census Act'
+  title-short: USC
+  keyword: policy, background, primary
+  URL: https://www.law.cornell.edu/uscode/pdf/lii_usc_TI_13.pdf
+
+- id: Varian2002
+  type: chapter
+  author:
+  - family: Varian
+    given: Hal R.
+  editor:
+  - family: Lehr
+    given: William H.
+  - family: Pupillo
+    given: Lorenzo M.
+  issued:
+  - year: 2002
+  title: Economic aspects of personal privacy
+  container-title: Cyber policy and economics in an internet age
+  publisher: Springer US
+  publisher-place: Boston, MA
+  page: 127-137
+  abstract: The advent of low-cost technology for manipulating and communicating information
+    has raised significant concerns about personal privacy. Privacy is a complex issue
+    that can be treated from many perspectives; this paper provides an overview of
+    some of the economic issues surrounding it.1
+  keyword: primary
+  URL: https://doi.org/10.1007/978-1-4757-3575-8_9
+  DOI: 10.1007/978-1-4757-3575-8_9
+  ISBN: 978-1-4757-3575-8
+
+- id: Varian1998
+  type: report
+  author:
+  - family: Varian
+    given: Hal R.
+  issued:
+  - year: 1998
+    month: 10
+  title: <span class="nocase">Markets for Information Goods</span>
+  publisher: UC Berkeley School of Information
+  page: 1-19
+  genre: mimeo
+  abstract: 'Much has been written about the difficulties that “information” poses
+    for neoclassical economics. How ironic that ICE-information, communication, and
+    entertainment-now comprises the largest sector in the American economy. If information
+    poses problems for economic theory, so much the worse for economic theory: real
+    markets seem to deal with information rather well. This paradox is the central
+    theme of this essay: information, that slippery and strange economic good, is,
+    in fact, handled very well by market institutions. The reason is that real markets
+    are much more creative than those simple competitive markets studied in Econ 1.
+    The fact that real-life markets can handle a good as problematic as is a testament
+    to the flexibility and robustness of market institutions.'
+  keyword: value of data, primary
+  URL: http://people.ischool.berkeley.edu/~hal/Papers/japan/index.html
+
+- id: groves:harris-kojetin:2017:orig
+  type: book
+  author:
+  - family: National Academies of Sciences
+    given: Engineering
+  - literal: Medicine
+  issued:
+  - year: 2017
+  title: 'Innovations in federal statistics: Combining data sources while protecting
+    privacy'
+  title-short: Innovations in federal statistics
+  collection-title: Committee on national statistics
+  publisher: National Academies Press
+  publisher-place: Washington, DC
+  keyword: official statistics, primary
+  URL: https://www.nap.edu/catalog/24652/innovations-in-federal-statistics-combining-data-sources-while-protecting-privacy
+  DOI: 10.17226/24652
+  ISBN: 978-0-309-45428-5
+
+- id: groves:harris-kojetin:2017
+  type: book
+  issued:
+  - year: 2017
+  title: 'Innovations in federal statistics: Combining data sources while protecting
+    privacy'
+  title-short: Innovations in federal statistics
+  collection-title: Committee on national statistics
+  publisher: National Academies Press
+  publisher-place: Washington, DC
+  keyword: official statistics, primary
+  URL: https://www.nap.edu/catalog/24652/innovations-in-federal-statistics-combining-data-sources-while-protecting-privacy
+  DOI: 10.17226/24652
+  ISBN: 978-0-309-45428-5
+
+- id: couper2008risk
+  type: article-journal
+  author:
+  - family: Couper
+    given: Mick P
+  - family: Singer
+    given: Eleanor
+  - family: Conrad
+    given: Frederick G
+  - family: Groves
+    given: Robert M
+  issued:
+  - year: 2008
+  title: Risk of disclosure, perceptions of risk, and concerns about privacy and confidentiality
+    as factors in survey participation
+  container-title: Journal of Official Statistics
+  publisher: NIH Public Access
+  page: '255'
+  volume: '24'
+  issue: '2'
+  keyword: value of privacy, primary
+  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096944/
+
+- id: KinneyEtAl2011
+  type: article-journal
+  author:
+  - family: Kinney
+    given: Satkartar K.
+  - family: Reiter
+    given: Jerome P.
+  - family: Reznek
+    given: Arnold P.
+  - family: Miranda
+    given: Javier
+  - family: Jarmin
+    given: Ron S.
+  - family: Abowd
+    given: John M.
+  issued:
+  - year: 2011
+  title: 'Towards unrestricted public use business microdata: The Synthetic Longitudinal
+    Business Database'
+  title-short: Towards unrestricted public use business microdata
+  container-title: International Statistical Review
+  publisher: Blackwell Publishing Ltd
+  page: 362-384
+  volume: '79'
+  issue: '3'
+  abstract: In most countries, national statistical agencies do not release establishment-level
+    business microdata, because doing so represents too large a risk to establishments’
+    confidentiality. One approach with the potential for overcoming these risks is
+    to release synthetic data; that is, the released establishment data are simulated
+    from statistical models designed to mimic the distributions of the underlying
+    real microdata. In this article, we describe an application of this strategy to
+    create a public use file for the Longitudinal Business Database, an annual economic
+    census of establishments in the United States comprising more than 20 million
+    records dating back to 1976. The U.S. Bureau of the Census and the Internal Revenue
+    Service recently approved the release of these synthetic microdata for public
+    use, making the synthetic Longitudinal Business Database the first-ever business
+    microdata set publicly released in the United States. We describe how we created
+    the synthetic data, evaluated analytical validity, and assessed disclosure risk.
+  keyword: Economic census, data confidentiality, synthetic data, disclosure limitation,
+    statistical disclosure limitation, SDL, primary
+  URL: http://dx.doi.org/10.1111/j.1751-5823.2011.00153.x
+  DOI: 10.1111/j.1751-5823.2011.00153.x
+  ISSN: 1751-5823
+
+- id: HaneySIGMOD2017
+  type: chapter
+  author:
+  - family: Haney
+    given: Samuel
+  - family: Machanavajjhala
+    given: Ashwin
+  - family: Abowd
+    given: John M.
+  - family: Graham
+    given: Matthew
+  - family: Kutzbach
+    given: Mark
+  - family: Vilhuber
+    given: Lars
+  issued:
+  - year: 2017
+  title: Utility cost of formal privacy for releasing national employer-employee statistics
+  container-title: Proceedings of the 2017 International Conference on Management
+    of Data
+  collection-title: SIGMOD ’17
+  publisher: ACM
+  abstract: National statistical agencies around the world publish tabular summaries
+    based on combined employer-employee (ER-EE) data. The privacy of both individuals
+    and business establishments that feature in these data are protected by law in
+    most countries. These data are currently released using a variety of statistical
+    disclosure limitation (SDL) techniques that do not reveal the exact characteristics
+    of particular employers and employees, but lack provable privacy guarantees limiting
+    inferential disclosures. In this work, we present novel algorithms for releasing
+    tabular summaries of linked ER-EE data with formal, provable guarantees of privacy.
+    We show that state-of-the-art differentially private algorithms add too much noise
+    for the output to be useful. Instead, we identify the privacy requirements mandated
+    by current interpretations of the relevant laws, and formalize them using the
+    Pufferfish framework. We then develop new privacy definitions that are customized
+    to ER-EE data and satisfy the statutory privacy requirements. We implement the
+    experiments in this paper on production data gathered by the U.S. Census Bureau.
+    An empirical evaluation of utility for these data shows that for reasonable values
+    of the privacy-loss parameter $\epsilon\geq$ 1, the additive error introduced
+    by our provably private algorithms is comparable, and in some cases better, than
+    the error introduced by existing SDL techniques that have no provable privacy
+    guarantees. For some complex queries currently published, however, our algorithms
+    do not have utility comparable to the existing traditional SDL algorithms. Those
+    queries are fodder for future research.
+  keyword: official statistics, primary
+  URL: http://dx.doi.org/10.1145/3035918.3035940
+  DOI: 10.1145/3035918.3035940
+
+- id: Abowd:JPC:2017
+  type: article-journal
+  author:
+  - family: Abowd
+    given: John M.
+  issued:
+  - year: 2017
+  title: How will statistical agencies operate when all data are private?
+  container-title: Journal of Privacy and Confidentiality
+  volume: '7'
+  issue: '3'
+  note: Published version of Abowd:LDI:2016:30
+  keyword: Official Statistics, primary
+  URL: https://journalprivacyconfidentiality.org/index.php/jpc/article/view/404
+  DOI: 10.29012/jpc.v7i3.404
+
+- id: perez-truglia:transparency:SSRN:2016
+  type: article-journal
+  author:
+  - family: Perez-Truglia
+    given: Ricardo
+  issued:
+  - year: 2016
+    month: 2
+  title: 'The effects of income transparency on well-being: Evidence from a natural
+    experiment'
+  title-short: The effects of income transparency on well-being
+  container-title: SSRN
+  keyword: value of data, primary
+  URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2657808
+  DOI: 10.2139/ssrn.2657808
+
+- id: cummings:empirical:corr:2014
+  type: article-journal
+  author:
+  - family: Cummings
+    given: Rachel
+  - family: Echenique
+    given: Federico
+  - family: Wierman
+    given: Adam
+  issued:
+  - year: 2014
+  title: The empirical implications of privacy-aware choice
+  container-title: CoRR
+  volume: abs/1401.0336
+  keyword: formal privacy, primary
+  URL: http://arxiv.org/abs/1401.0336
+
+- id: cummings:adaptive:corr:2016
+  type: article-journal
+  author:
+  - family: Cummings
+    given: Rachel
+  - family: Ligett
+    given: Katrina
+  - family: Nissim
+    given: Kobbi
+  - family: Roth
+    given: Aaron
+  - family: Wu
+    given: Zhiwei Steven
+  issued:
+  - year: 2016
+  title: Adaptive learning with robust generalization guarantees
+  container-title: CoRR
+  volume: abs/1602.07726
+  keyword: value of privacy, primary
+  URL: http://arxiv.org/abs/1602.07726
+
+- id: Dwork:Generalization:NIPS:2015
+  type: chapter
+  author:
+  - family: Dwork
+    given: Cynthia
+  - family: Feldman
+    given: Vitaly
+  - family: Hardt
+    given: Moritz
+  - family: Pitassi
+    given: Toni
+  - family: Reingold
+    given: Omer
+  - family: Roth
+    given: Aaron
+  editor:
+  - family: Cortes
+    given: C.
+  - family: Lawrence
+    given: N. D.
+  - family: Lee
+    given: D. D.
+  - family: Sugiyama
+    given: M.
+  - family: Garnett
+    given: R.
+  issued:
+  - year: 2015
+  title: Generalization in adaptive data analysis and holdout reuse
+  container-title: Advances in neural information processing systems 28
+  page: 2341-2349
+  keyword: value of privacy, primary
+  URL: http://papers.nips.cc/paper/5993-generalization-in-adaptive-data-analysis-and-holdout-reuse.pdf
+
+- id: 'ghosh:utility:ACM:2009:'
+  type: paper-conference
+  author:
+  - family: Ghosh
+    given: Arpita
+  - family: Roughgarden
+    given: Tim
+  - family: Sundararajan
+    given: Mukund
+  issued:
+  - year: 2009
+  title: Universally utility-maximizing privacy mechanisms
+  container-title: Proceedings of the forty-first annual acm symposium on theory of
+    computing
+  collection-title: STOC ’09
+  publisher: ACM
+  publisher-place: New York, NY, USA
+  page: 351-360
+  keyword: differential privacy, linear programming, privacy, utility, primary
+  URL: http://doi.acm.org/10.1145/1536414.1536464
+  DOI: 10.1145/1536414.1536464
+  ISBN: 978-1-60558-506-2
+
+- id: li:matrix:VLDB:2015
+  type: article-journal
+  author:
+  - family: Li
+    given: Chao
+  - family: Miklau
+    given: Gerome
+  - family: Hay
+    given: Michael
+  - family: McGregor
+    given: Andrew
+  - family: Rastogi
+    given: Vibhor
+  issued:
+  - year: 2015
+  title: 'The matrix mechanism: Optimizing linear counting queries under differential
+    privacy'
+  title-short: The matrix mechanism
+  container-title: The VLDB Journal
+  page: 757-781
+  volume: '24'
+  issue: '6'
+  abstract: Differential privacy is a robust privacy standard that has been successfully
+    applied to a range of data analysis tasks. We describe the matrix mechanism, an
+    algorithm for answering a workload of linear counting queries that adapts the
+    noise distribution to properties of the provided queries. Given a workload, the
+    mechanism uses a different set of queries, called a query strategy, which are
+    answered using a standard Laplace or Gaussian mechanism. Noisy answers to the
+    workload queries are then derived from the noisy answers to the strategy queries.
+    This two-stage process can result in a more complex, correlated noise distribution
+    that preserves differential privacy but increases accuracy. We provide a formal
+    analysis of the error of query answers produced by the mechanism and investigate
+    the problem of computing the optimal query strategy in support of a given workload.
+    We show that this problem can be formulated as a rank-constrained semidefinite
+    program. We analyze two seemingly distinct techniques proposed in the literature,
+    whose similar behavior is explained by viewing them as instances of the matrix
+    mechanism. We also describe an extension of the mechanism in which nonnegativity
+    constraints are included in the derivation process and provide experimental evidence
+    of its efficacy.
+  keyword: formal privacy, primary
+  URL: http://dx.doi.org/10.1007/s00778-015-0398-x
+  DOI: 10.1007/s00778-015-0398-x
+  ISSN: 0949-877X
+
+- id: jorgensen:personalized:ICDE:2015
+  type: paper-conference
+  author:
+  - family: Jorgensen
+    given: Z.
+  - family: Yu
+    given: T.
+  - family: Cormode
+    given: G.
+  issued:
+  - year: 2015
+    month: 4
+  title: Conservative or liberal? Personalized differential privacy
+  container-title: 2015 IEEE 31st International Conference on Data Engineering
+  page: 1023-1034
+  abstract: Differential privacy is widely accepted as a powerful framework for providing
+    strong, formal privacy guarantees for aggregate data analysis. A limitation of
+    the model is that the same level of privacy protection is afforded for all individuals.
+    However, it is common that the data subjects have quite different expectations
+    regarding the acceptable level of privacy for their data. Consequently, differential
+    privacy may lead to insufficient privacy protection for some users, while over-protecting
+    others. We argue that by accepting that not all users require the same level of
+    privacy, a higher level of utility can often be attained by not providing excess
+    privacy to those who do not want it. We propose a new privacy definition called
+    personalized differential privacy (PDP), a generalization of differential privacy
+    in which users specify a personal privacy requirement for their data. We then
+    introduce several novel mechanisms for achieving PDP. Our primary mechanism is
+    a general one that automatically converts any existing differentially private
+    algorithm into one that satisfies PDP. We also present a more direct approach
+    for achieving PDP, inspired by the well-known exponential mechanism. We demonstrate
+    our framework through extensive experiments on real and synthetic data.
+  keyword: data protection;PDP;aggregate data analysis;exponential mechanism;formal
+    privacy guarantees;personalized differential privacy;primary mechanism;privacy
+    level;privacy protection;real data;synthetic data;utility level;Lead;Privacy,
+    formal privacy
+  URL: https://ieeexplore.ieee.org/document/7113353
+  DOI: 10.1109/ICDE.2015.7113353
+  ISSN: 1063-6382
+
+- id: Machanavajjhala:OTM:ICDE:2008
+  type: paper-conference
+  author:
+  - family: Machanavajjhala
+    given: A.
+  - family: Kifer
+    given: D.
+  - family: Abowd
+    given: J.
+  - family: Gehrke
+    given: J.
+  - family: Vilhuber
+    given: L.
+  issued:
+  - year: 2008
+    month: 4
+  title: 'Privacy: Theory meets practice on the map'
+  title-short: Privacy
+  container-title: Proceedings of the 2008 ieee 24th international conference on data
+    engineering
+  page: 277-286
+  abstract: In this paper, we propose the first formal privacy analysis of a data
+    anonymization process known as the synthetic data generation, a technique becoming
+    popular in the statistics community. The target application for this work is a
+    mapping program that shows the commuting patterns of the population of the United
+    States. The source data for this application were collected by the U.S. Census
+    Bureau, but due to privacy constraints, they cannot be used directly by the mapping
+    program. Instead, we generate synthetic data that statistically mimic the original
+    data while providing privacy guarantees. We use these synthetic data as a surrogate
+    for the original data. We find that while some existing definitions of privacy
+    are inapplicable to our target application, others are too conservative and render
+    the synthetic data useless since they guard against privacy breaches that are
+    very unlikely. Moreover, the data in our target application is sparse, and none
+    of the existing solutions are tailored to anonymize sparse data. In this paper,
+    we propose solutions to address the above issues.
+  keyword: Computer science;Data analysis;Data privacy;Law;Legal factors;Statistical
+    analysis;data handling;data privacy;statistical analysis;data anonymization process;formal
+    privacy analysis;mapping program;statistical inference;synthetic data generation;
+    background, primary
+  DOI: 10.1109/ICDE.2008.4497436
+
+- id: kasiviswanathan2014semantics
+  type: article-journal
+  author:
+  - family: Kasiviswanathan
+    given: Shiva P
+  - family: Smith
+    given: Adam
+  issued:
+  - year: 2014
+  title: 'On the ’semantics’ of differential privacy: A bayesian formulation'
+  title-short: On the ’semantics’ of differential privacy
+  container-title: Journal of Privacy and Confidentiality
+  page: '1'
+  volume: '6'
+  issue: '1'
+  keyword: formal privacy, primary
+  URL: https://journalprivacyconfidentiality.org/index.php/jpc/article/view/634
+  DOI: 10.29012/jpc.v6i1.634
+
+- id: Hardt:Simple:NIPS:2012
+  type: chapter
+  author:
+  - family: Hardt
+    given: Moritz
+  - family: Ligett
+    given: Katrina
+  - family: McSherry
+    given: Frank
+  editor:
+  - family: Pereira
+    given: F.
+  - family: Burges
+    given: C.J.C.
+  - family: Bottou
+    given: L.
+  - family: Weinberger
+    given: K.Q.
+  issued:
+  - year: 2012
+  title: <span class="nocase">A Simple and Practical Algorithm for Differentially
+    Private Data Release.</span>
+  container-title: Advances in neural information processing systems 25
+  publisher: Curran Associates, Inc.
+  page: 2339-2347
+  abstract: We present new theoretical results on differentially private data release
+    useful with respect to any target class of counting queries, coupled with experimental
+    results on a variety of real world data sets. Specifically, we study a simple
+    combination of the multiplicative weights approach of \[Hardt and Rothblum, 2010\]
+    with the exponential mechanism of \[McSherry and Talwar, 2007\]. The multiplicative
+    weights framework allows us to maintain and improve a distribution approximating
+    a given data set with respect to a set of counting queries. We use the exponential
+    mechanism to select those queries most incorrectly tracked by the current distribution.
+    Combing the two, we quickly approach a distribution that agrees with the data
+    set on the given set of queries up to small error. The resulting algorithm and
+    its analysis is simple, but nevertheless improves upon previous work in terms
+    of both error and running time. We also empirically demonstrate the practicality
+    of our approach on several data sets commonly used in the statistical community
+    for contingency table release.
+  keyword: formal privacy, primary
+  URL: http://papers.nips.cc/paper/4548-a-simple-and-practical-algorithm-for-differentially-private-data-release.pdf
+
+- id: Jin:AI-Privacy:2018:NBERw24253
+  type: report
+  author:
+  - family: Jin
+    given: Ginger Zhe
+  issued:
+  - year: 2018
+    month: 1
+  title: Artificial intelligence and consumer privacy
+  collection-title: Working paper series
+  publisher: National Bureau of Economic Research
+  genre: Working Paper
+  abstract: Thanks to big data, artificial intelligence (AI) has spurred exciting
+    innovations. In the meantime, AI and big data are reshaping the risk in consumer
+    privacy and data security. In this essay, I first define the nature of the problem
+    and then present a few facts about the ongoing risk. The bulk of the essay describes
+    how the U.S. market copes with the risk in current policy environment. It concludes
+    with key challenges facing researchers and policy makers.
+  keyword: economics of privacy, primary
+  number: '24253'
+  URL: http://www.nber.org/papers/w24253
+  DOI: 10.3386/w24253
+
+- id: spwp22
+  type: report
+  author:
+  - family: Harris-Kojetin
+    given: Brian A.
+  - family: Alvey
+    given: Wendy L.
+  - family: Carlson
+    given: Lynda
+  - family: Cohen
+    given: Steven B.
+  - family: Cohen
+    given: Steve H.
+  - family: Cox
+    given: Lawrence H.
+  - family: Fay
+    given: Robert E.
+  - family: Fecso
+    given: Ronald
+  - family: Fixler
+    given: Dennis
+  - family: Gates
+    given: Gerald
+  - family: Graubard
+    given: Barry
+  - family: Iwig
+    given: William
+  - family: Kennickell
+    given: Arthur
+  - family: Kirkendall
+    given: Nancy J.
+  - family: Schechter
+    given: Susan
+  - family: Schmitt
+    given: Rolf R.
+  - family: Seastrom
+    given: Marilyn
+  - family: Sirken
+    given: Monroe G.
+  - family: Spruill
+    given: Nancy L.
+  - family: Tucker
+    given: Clyde
+  - family: Tupek
+    given: Alan R.
+  - family: Williamson
+    given: G. David
+  - family: Groves
+    given: Robert
+  issued:
+  - year: 2005
+    month: 12
+  title: 'Statistical policy working paper 22: Report on statistical disclosure
+    limitation methodology'
+  title-short: Statistical policy working paper 22
+  publisher: U.S. Federal Committee on Statistical Methodology
+  genre: Research Report
+  keyword: statistical disclosure limitation, SDL, primary
+  URL: https://nces.ed.gov/FCSM/pdf/spwp22.pdf
+
+- id: jones:2017
+  type: no-type
+  author:
+  - family: Jones
+    given: Christa
+  issued:
+  - year: 2017
+    month: 6
+  title: Nonconfidential memorandum on Census Bureau privacy breaches
+  publisher: Memorandum to file
+  note: public document in replication archive 10.5281/zenodo.1208758
+  keyword: background, primary
+  URL: http://doi.org/10.5281/zenodo.1345775
+
+- id: abowd:fcsm:2016
+  type: article-journal
+  author:
+  - family: Abowd
+    given: John M.
+  issued:
+  - year: 2016
+    month: 12
+  title: Why statistical agencies need to take privacy-loss budgets seriously, and
+    what it means when they do
+  container-title: The 13th Biennial Federal Committee on Statistical Methodology
+    (FCSM) Policy Conference
+  note: <https://digitalcommons.ilr.cornell.edu/ldi/32/>
+  keyword: Official Statistics, primary
+  URL: https://digitalcommons.ilr.cornell.edu/ldi/32/
+
+- id: Goldfarb:Shifts:AERPP:2012
+  type: article-journal
+  author:
+  - family: Goldfarb
+    given: Avi
+  - family: Tucker
+    given: Catherine
+  issued:
+  - year: 2012
+    month: 5
+  title: Shifts in privacy concerns
+  container-title: American Economic Review
+  page: 349-53
+  volume: '102'
+  issue: '3'
+  keyword: economics; privacy; economics of privacy; measurement; privacy measurement,
+    value of privacy, primary
+  URL: http://www.aeaweb.org/articles?id=10.1257/aer.102.3.349
+  DOI: 10.1257/aer.102.3.349
+
+- id: Campbell:Privacy:JEMS
+  type: article-journal
+  author:
+  - family: Campbell
+    given: James
+  - family: Goldfarb
+    given: Avi
+  - family: Tucker
+    given: Catherine
+  issued:
+  - year: 2015
+  title: Privacy regulation and market structure
+  container-title: Journal of Economics & Management Strategy
+  page: 47-73
+  volume: '24'
+  issue: '1'
+  abstract: This paper models how regulatory attempts to protect the privacy of consumers’
+    data affect the competitive structure of data-intensive industries. Our results
+    suggest that the commonly used consent-based approach may disproportionately benefit
+    firms that offer a larger scope of services. Therefore, though privacy regulation
+    imposes costs on all firms, it is small firms and new firms that are most adversely
+    affected. We then show that this negative effect will be particularly severe for
+    goods where the price mechanism does not mediate the effect, such as the advertising-supported
+    Internet.
+  keyword: economics of privacy, primary
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/jems.12079
+  DOI: 10.1111/jems.12079
+
+- id: AbowdSchmutte:Privacy:AER
+  type: article-journal
+  author:
+  - family: Abowd
+    given: John M.
+  - family: Schmutte
+    given: Ian M.
+  issued:
+  - year: 2019
+  title: An economic analysis of privacy protection and statistical accuracy as social
+    choices
+  container-title: American Economic Review
+  page: 171-202
+  volume: '109'
+  issue: '1'
+  abstract: 'Statistical agencies face a dual mandate to publish accurate statistics
+    while protecting respondent privacy. Increasing privacy protection requires decreased
+    accuracy. Recognizing this as a resource allocation problem, we propose an economic
+    solution: operate where the marginal cost of increasing privacy equals the marginal
+    benefit. Our model of production, from computer science, assumes data are published
+    using an efficient differentially private algorithm. Optimal choice weighs the
+    demand for accurate statistics against the demand for privacy. Examples from U.S. statistical
+    programs show how our framework can guide decision-making. Further progress requires
+    a better understanding of willingness-to-pay for privacy and statistical accuracy.'
+  keyword: Economics of Privacy, Formal Privacy, Statistical Disclosure Limitation,
+    primary, background
+  DOI: 10.1257/aer.20170627
+
+- id: PomattoTheCostOfInformation2018
+  type: report
+  author:
+  - family: Pomatto
+    given: Luciano
+  - family: Strack
+    given: Philipp
+  - family: Tamuz
+    given: Omer
+  issued:
+  - year: 2018
+  title: The cost of information
+  publisher: arXiv
+  keyword: value of data, primary
+
+- id: 10.1257/aer.20161079
+  type: article-journal
+  author:
+  - family: Bergemann
+    given: Dirk
+  - family: Bonatti
+    given: Alessandro
+  - family: Smolin
+    given: Alex
+  issued:
+  - year: 2018
+  title: The design and price of information
+  container-title: American Economic Review
+  page: 1-48
+  volume: '108'
+  issue: '1'
+  keyword: data unions, value of data, primary
+  URL: http://www.aeaweb.org/articles?id=10.1257/aer.20161079
+  DOI: 10.1257/aer.20161079
+...
