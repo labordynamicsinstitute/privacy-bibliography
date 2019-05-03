@@ -9,7 +9,7 @@ bookdown::gitbook:
     download: 
       - ["Introductory_Readings_Privacy_Economists.pdf", "PDF"]
       - ["sloan-privacy-bibliography.pdf", "Extensive PDF"]
-      - ["https://doi.org/10.5281/zenodo.2621345", "Version of record"]
+      - ["https://doi.org/10.5281/zenodo.2662639", "Version of record"]
     edit:
         link: https://github.com/labordynamicsinstitute/privacy-bibliography/edit/master/%s
     sharing:
@@ -23,7 +23,7 @@ bookdown::gitbook:
               <li class="chapter""> ©️ 2019 Abowd, Schmutte, Sexton, Vilhuber</li>
               <li class="chapter"><a href="https://creativecommons.org/licenses/by-nc/4.0/" alt="Link to CC BY-NC 4.0" target="_blank">
               <img alt="License: CC BY-NC 4.0" src="https://licensebuttons.net/l/by-nc/4.0/80x15.png" /></a></li>
-              <li class="chapter"><a href="https://doi.org/10.5281/zenodo.2621345"><img src="https://zenodo.org/badge/144227499.svg" alt="DOI 10.5281/zenodo.2621345"></a></li>
+              <li class="chapter"><a href="https://doi.org/10.5281/zenodo.2662639"><img src="https://zenodo.org/badge/144227499.svg" alt="DOI 10.5281/zenodo.2621345"></a></li>
     toolbar:
       position: fixed
 bookdown::pdf_book:
