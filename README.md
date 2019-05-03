@@ -7,7 +7,7 @@ author: "John M. Abowd, Ian M. Schmutte, William Sexton, and Lars Vilhuber"
 
 
 
-[![DOI](https://zenodo.org/badge/144227499.svg)](https://doi.org/10.5281/zenodo.2621345)
+[![DOI](https://zenodo.org/badge/144227499.svg)](https://doi.org/10.5281/zenodo.2662639)
 
 
 # Introductory Readings in Formal Privacy for Economists
