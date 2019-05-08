@@ -56,6 +56,7 @@ The views expressed in this paper are those of the authors and not those of the 
 
 # Background
 We start by providing a short list of background references that frame a particular set of research topics.  @AbowdSchmutte:Privacy:AER  show how to combine formal privacy models with the classic theory of public goods to understand and guide decisions about privacy protection and data dissemination. For the neophyte,  @WoodVanderbiltJ.Entertain.Technol.Law2018  provide a non-technical introduction to formal privacy models in general, and differential privacy in particular.   @Heffetz2014  also introduce differential privacy, but targeted toward economists. After reading these introductory treatments, you should review the textbook treatment of differential privacy in  @Dwork:Roth:journal:version:2014 , focusing on Chapters 1--3. We also recommend consultation of the very fine tutorial "Differential Privacy in the Wild: A tutorial on current practices and open challenges" by Michael Hay, Xi He, and Ashwin Machanavajjhala. The tutorial is available in two parts.
+
 * Part 1: ([slides](http://sigmod2017.org/wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-1.pdf), [video](https://www.youtube.com/watch?v=rfI-I3e_LFs)
 * Part 2: ([slides](http://sigmod2017.org/wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-2.pdf), [video](https://www.youtube.com/watch?v=Uhh7QCbnE9o)
 
