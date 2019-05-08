@@ -48,8 +48,8 @@ In the remainder of this document, for each topic, we provide a very brief descr
 We encourage interested readers and researchers to use these readings for their classes and training, modifying it as needed. You can fork the source code at [https://github.com/labordynamicsinstitute/privacy-bibliography](https://github.com/labordynamicsinstitute/privacy-bibliography). This document is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International Public License  (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). Should that license not meet your needs, contact us to discuss possible modifications or exemption. Please send us any improvements, corrections, or other contributions, either by e-mail, or via the "[Issues](https://github.com/labordynamicsinstitute/privacy-bibliography/issues)" feature on 
 Github`r if (knitr::is_html_output()) ', or by clicking on the edit button in the toolbar above'`. 
 
-## Support 
-We gratefully acknowledge the support of Alfred P.\ [Sloan Foundation Grant G-2015-13903](https://sloan.org/grant-detail/6845) and [NSF Grant SES-1131848](http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1131848).
+## Acknowledgements 
+We gratefully acknowledge the support of Alfred P.\ [Sloan Foundation Grant G-2015-13903](https://sloan.org/grant-detail/6845) and [NSF Grant SES-1131848](http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1131848). 
 
 ## Disclaimer
 The views expressed in this paper are those of the authors and not those of the U.S. Census Bureau or other sponsors.
@@ -75,7 +75,7 @@ In assessing formal privacy as a framework for modeling data publication, it is 
 Several papers are more directly relevant to understanding how privacy affects the work of statistical agencies.
 @cummings:empirical:corr:2014 argue that privacy concerns can affect the way people report data, and show how, if properly designed, privacy protection may mitigate misreporting.
 While there are vast number of papers on the implementation of differentially private publication algorithms, a few are particularly relevant to how statistical agencies operate. @Hardt:Simple:NIPS:2012 and @Hardt:Multiplicative:FOCS10 provide the methods and theory for publication through online query systems. One problem with these methods is that their implementation depends on the underlying data. By contrast, @li:matrix:VLDB:2015 introduce the Matrix Mechanism, which is data-independent, but also can provide high accuracy for reasonable levels of privacy. This is one of the methods under development for use with the 2020 Decennial Census. Other formal privacy systems currently in use at Census are documented in @Machanavajjhala:OTM:ICDE:2008
-and @HaneySIGMOD2017.
+and @HaneySIGMOD2017. For practitioners, @Machanavajjhala:2015:DSP:2739250.2660766 provide an accessible and very useful overview of how formal privacy methods might be applied to real-world data publishing tasks.
 
 Finally, so-called "privacy semantics" are mappings between mathematical definitions of privacy and plain language. These are really important for practitioners because there is usually a gap between how laypeople think about privacy and how it is defined in the CS literature. By way of introduction, we recommend @He:Blowfish:ACMSIGMOD:2014, @jorgensen:personalized:ICDE:2015. 
 
