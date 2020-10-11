@@ -27,6 +27,16 @@ references:
   ISBN: 978-0-309-45428-5
 ---
 ```{r create bib,echo=FALSE,include=FALSE}
+mran.date <- "2019-09-01"
+options(repos=paste0("https://cran.microsoft.com/snapshot/",mran.date,"/"))
+basepath <- rprojroot::find_root(rprojroot::is_git_root)
+
+if ( !file.exists(file.path(basepath,"Rlib"))) {
+    dir.create(file.path(basepath,"Rlib"))
+}
+.libPaths(file.path(basepath,"Rlib"))
+
+
 source("create_primary.R",echo=TRUE)
 ```
 
