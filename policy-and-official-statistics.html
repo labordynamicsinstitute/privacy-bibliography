@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>4 Policy and Official Statistics | Introductory Readings in Formal Privacy for Economists</title>
   <meta name="description" content="4 Policy and Official Statistics | Introductory Readings in Formal Privacy for Economists" />
-  <meta name="generator" content="bookdown 0.20.6 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
   <meta property="og:title" content="4 Policy and Official Statistics | Introductory Readings in Formal Privacy for Economists" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="John M. Abowd, Ian M. Schmutte, William Sexton, and Lars Vilhuber" />
 
 
-<meta name="date" content="2020-10-11" />
+<meta name="date" content="2020-10-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,6 +33,7 @@
   
 <link rel="prev" href="formal-privacy.html"/>
 <link rel="next" href="statistical-disclosure-limitation.html"/>
+<script src="libs/header-attrs-2.3/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -50,6 +51,7 @@
 
 
 
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 
@@ -96,33 +98,38 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="policy-and-official-statistics" class="section level1">
+<div id="policy-and-official-statistics" class="section level1" number="4">
 <h1><span class="header-section-number">4</span> Policy and Official Statistics</h1>
-<p>In January 2017, the Committee on National Statistics released a special panel report focused on developing innovations in the U.S. statistical system focused, in part, on preserving privacy <span class="citation">(National Academies of Sciences, Engineering, and Medicine, <a href="#ref-groves:harris-kojetin:2017">2017</a>)</span>. Their report is essential reading to understand the governing principles and practical needs of the statistical system, particularly as it relates to privacy modernization. For a more applied perspective, <span class="citation">Schmutte &amp; Vilhuber (<a href="#ref-Proc:NSF-Sloan:2017">2017</a>)</span> report the proceedings of an ad hoc workshop on practical privacy held at the Census Bureau. That workshop gathered together academic privacy researchers and Census domain experts to help design formal privacy systems for key data products. In such meetings, it is necessary to make sure people are speaking the same language. <span class="citation">Prewitt (<a href="#ref-prewitt:2011">2011</a>)</span> describes the specific meanings of the terms &quot;privacy&quot; and &quot;confidentiality&quot; as they have historically been used at the Census Bureau.</p>
-<p><span class="citation">Manski (<a href="#ref-Manski2014">2015</a>)</span> offers a framework for thinking about total error in official statistics, which refers to the various ways measured quantities may differ from the concepts of interest, including measurement error, design error, and sampling error. From this perspective, privacy protection is yet another source of error in any statistical system. Maintaining the public trust is a key factor motivating the interest of statistical agencies in privacy protection. The less people trust the system, the less likely they respond accurately, or at all. <span class="citation">Childs, King, &amp; Fobia (<a href="#ref-Childs:Confidence:SP:2015">2015</a>)</span> discuss recent statistics on trust in official statistics and their implications for data collection. Finally, <span class="citation">Haney et al. (<a href="#ref-HaneySIGMOD2017">2017</a>)</span> and <span class="citation">Holan, Toth, Ferreira, &amp; Karr (<a href="#ref-Holan2010">2010</a>)</span> are good examples of the sorts of implementation details one may encounter when applying statistical privacy protections in public data.</p>
+<p>In January 2017, the Committee on National Statistics released a special panel report focused on developing innovations in the U.S. statistical system focused, in part, on preserving privacy <span class="citation">(National Academies of Sciences, Engineering, and Medicine, <a href="#ref-groves:harris-kojetin:2017" role="doc-biblioref">2017</a>)</span>.
+Their report is essential reading to understand the governing principles and practical needs of the statistical system, particularly as it relates to privacy modernization. For a more applied perspective, <span class="citation">Schmutte &amp; Vilhuber (<a href="#ref-Proc:NSF-Sloan:2017" role="doc-biblioref">2017</a>)</span> report the proceedings of an ad hoc workshop on practical privacy held at the Census Bureau. That workshop gathered together academic privacy researchers and Census domain experts to help design formal privacy systems for key data products.
+In such meetings, it is necessary to make sure people are speaking the same language. <span class="citation">Prewitt (<a href="#ref-prewitt:2011" role="doc-biblioref">2011</a>)</span> describes the specific meanings of the terms “privacy” and “confidentiality” as they have historically been used at the Census Bureau.</p>
+<p><span class="citation">Manski (<a href="#ref-Manski2014" role="doc-biblioref">2015</a>)</span> offers a framework for thinking about total error in official statistics, which refers to the various ways measured quantities may differ from the concepts of interest, including measurement error, design error, and sampling error. From this perspective, privacy protection is yet another source of error in any statistical system.
+Maintaining the public trust is a key factor motivating the interest of statistical agencies in privacy protection.
+The less people trust the system, the less likely they respond accurately, or at all. <span class="citation">Childs, King, &amp; Fobia (<a href="#ref-Childs:Confidence:SP:2015" role="doc-biblioref">2015</a>)</span> discuss recent statistics on trust in official statistics and their implications for data collection.
+Finally, <span class="citation">Haney et al. (<a href="#ref-HaneySIGMOD2017" role="doc-biblioref">2017</a>)</span> and <span class="citation">Holan, Toth, Ferreira, &amp; Karr (<a href="#ref-Holan2010" role="doc-biblioref">2010</a>)</span> are good examples of the sorts of implementation details one may encounter when applying statistical privacy protections in public data.</p>
 </div>
 <h3>References</h3>
 <div id="refs" class="references">
 <div id="ref-Childs:Confidence:SP:2015">
-<p>Childs, J. H., King, R., &amp; Fobia, A. (2015). Confidence in U.S. federal statistical agencies. <em>Survey Practice</em>, <em>8</em>(5). <a href="https://doi.org/10.29115/sp-2015-0024" class="uri">https://doi.org/10.29115/sp-2015-0024</a></p>
+<p>Childs, J. H., King, R., &amp; Fobia, A. (2015). Confidence in U.S. federal statistical agencies. <em>Survey Practice</em>, <em>8</em>(5). <a href="https://doi.org/10.29115/sp-2015-0024">https://doi.org/10.29115/sp-2015-0024</a></p>
 </div>
 <div id="ref-HaneySIGMOD2017">
-<p>Haney, S., Machanavajjhala, A., Abowd, J. M., Graham, M., Kutzbach, M., &amp; Vilhuber, L. (2017). Utility cost of formal privacy for releasing national employer-employee statistics. In <em>SIGMOD ’17</em>. <em>Proceedings of the 2017 International Conference on Management of Data</em>. <a href="https://doi.org/10.1145/3035918.3035940" class="uri">https://doi.org/10.1145/3035918.3035940</a></p>
+<p>Haney, S., Machanavajjhala, A., Abowd, J. M., Graham, M., Kutzbach, M., &amp; Vilhuber, L. (2017). Utility cost of formal privacy for releasing national employer-employee statistics. In <em>SIGMOD ’17</em>. <em>Proceedings of the 2017 International Conference on Management of Data</em>. <a href="https://doi.org/10.1145/3035918.3035940">https://doi.org/10.1145/3035918.3035940</a></p>
 </div>
 <div id="ref-Holan2010">
-<p>Holan, S. H., Toth, D., Ferreira, M. A. R., &amp; Karr, A. F. (2010). Bayesian multiscale multiple imputation with implications for data confidentiality. <em>Journal of the American Statistical Association</em>, <em>105</em>(490), 564–577. <a href="https://doi.org/10.1198/jasa.2009.ap08629" class="uri">https://doi.org/10.1198/jasa.2009.ap08629</a></p>
+<p>Holan, S. H., Toth, D., Ferreira, M. A. R., &amp; Karr, A. F. (2010). Bayesian multiscale multiple imputation with implications for data confidentiality. <em>Journal of the American Statistical Association</em>, <em>105</em>(490), 564–577. <a href="https://doi.org/10.1198/jasa.2009.ap08629">https://doi.org/10.1198/jasa.2009.ap08629</a></p>
 </div>
 <div id="ref-Manski2014">
-<p>Manski, C. F. (2015). Communicating uncertainty in official economic statistics: An appraisal fifty years after morgenstern. <em>Journal of Economic Literature</em>, <em>53</em>(3), 631–653. <a href="https://doi.org/10.1257/jel.53.3.631" class="uri">https://doi.org/10.1257/jel.53.3.631</a></p>
+<p>Manski, C. F. (2015). Communicating uncertainty in official economic statistics: An appraisal fifty years after morgenstern. <em>Journal of Economic Literature</em>, <em>53</em>(3), 631–653. <a href="https://doi.org/10.1257/jel.53.3.631">https://doi.org/10.1257/jel.53.3.631</a></p>
 </div>
 <div id="ref-groves:harris-kojetin:2017">
-<p>National Academies of Sciences, Engineering, and Medicine. (2017). <em>Innovations in federal statistics: Combining data sources while protecting privacy</em>. <a href="https://doi.org/10.17226/24652" class="uri">https://doi.org/10.17226/24652</a></p>
+<p>National Academies of Sciences, Engineering, and Medicine. (2017). <em>Innovations in federal statistics: Combining data sources while protecting privacy</em>. <a href="https://doi.org/10.17226/24652">https://doi.org/10.17226/24652</a></p>
 </div>
 <div id="ref-prewitt:2011">
-<p>Prewitt, K. (2011). Why It Matters to Distinguish Between Privacy &amp; Confidentiality. <em>Journal of Privacy and Confidentiality</em>, <em>3</em>(2), 41–47. <a href="https://doi.org/10.29012/jpc.v3i2.600" class="uri">https://doi.org/10.29012/jpc.v3i2.600</a></p>
+<p>Prewitt, K. (2011). Why It Matters to Distinguish Between Privacy &amp; Confidentiality. <em>Journal of Privacy and Confidentiality</em>, <em>3</em>(2), 41–47. <a href="https://doi.org/10.29012/jpc.v3i2.600">https://doi.org/10.29012/jpc.v3i2.600</a></p>
 </div>
 <div id="ref-Proc:NSF-Sloan:2017">
-<p>Schmutte, I. M., &amp; Vilhuber, L. (Eds.). (2017). <em>Proceedings from the 2016 NSF-Sloan Workshop on Practical Privacy</em>. Retrieved from <a href="https://digitalcommons.ilr.cornell.edu/ldi/33/" class="uri">https://digitalcommons.ilr.cornell.edu/ldi/33/</a></p>
+<p>Schmutte, I. M., &amp; Vilhuber, L. (Eds.). (2017). <em>Proceedings from the 2016 NSF-Sloan Workshop on Practical Privacy</em>. Retrieved from <a href="https://digitalcommons.ilr.cornell.edu/ldi/33/">https://digitalcommons.ilr.cornell.edu/ldi/33/</a></p>
 </div>
 </div>
             </section>

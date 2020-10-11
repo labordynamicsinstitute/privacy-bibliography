@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>7 Value of Privacy and Data Accuracy | Introductory Readings in Formal Privacy for Economists</title>
   <meta name="description" content="7 Value of Privacy and Data Accuracy | Introductory Readings in Formal Privacy for Economists" />
-  <meta name="generator" content="bookdown 0.20.6 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
   <meta property="og:title" content="7 Value of Privacy and Data Accuracy | Introductory Readings in Formal Privacy for Economists" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="John M. Abowd, Ian M. Schmutte, William Sexton, and Lars Vilhuber" />
 
 
-<meta name="date" content="2020-10-11" />
+<meta name="date" content="2020-10-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,6 +33,7 @@
   
 <link rel="prev" href="economics-of-privacy.html"/>
 <link rel="next" href="references.html"/>
+<script src="libs/header-attrs-2.3/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -50,6 +51,7 @@
 
 
 
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 
@@ -96,54 +98,54 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="value-of-privacy-and-data-accuracy" class="section level1">
+<div id="value-of-privacy-and-data-accuracy" class="section level1" number="7">
 <h1><span class="header-section-number">7</span> Value of Privacy and Data Accuracy</h1>
-<p>One key challenge for implementing formal privacy systems lies in choosing the amount, or type, of privacy to provide. Answering this question requires some way to understand the individual and social value of privacy. <span class="citation">Ghosh &amp; Roth (<a href="#ref-Ghosh:Auction:GEB:2015">2015</a>)</span> and <span class="citation">C. Li, Li, Miklau, &amp; Suciu (<a href="#ref-Li2014">2014</a>)</span> both model mechanisms for pricing private data under the assumption that individuals are only willing to disclose such information if they are paid.</p>
-<p>Part of the social value of privacy arises from its relationship to scientific integrity. While the law of information recovery suggests that improved privacy must come at the cost of increased error in published statistics, these effects might be mitigated through two distinct channels. First, people are more truthful in surveys if they believe their data is not at risk, as <span class="citation">Couper, Singer, Conrad, &amp; Groves (<a href="#ref-couper2008risk">2008</a>)</span> illustrate. Second, work in computer science <span class="citation">(Dwork et al., <a href="#ref-Dwork:Generalization:NIPS:2015">2015</a> )</span> and statistics <span class="citation">(Cummings, Ligett, Nissim, Roth, &amp; Wu, <a href="#ref-cummings:adaptive:corr:2016">2016</a>)</span> suggests another somewhat surprising benefit of differential privacy: protection against overfitting. A complete accounting of the costs and benefits of formal privacy systems should take these channels into account.</p>
+<p>One key challenge for implementing formal privacy systems lies in choosing the amount, or type, of privacy to provide. Answering this question requires some way to understand the individual and social value of privacy. <span class="citation">Ghosh &amp; Roth (<a href="#ref-Ghosh:Auction:GEB:2015" role="doc-biblioref">2015</a>)</span> and <span class="citation">Li, Li, Miklau, &amp; Suciu (<a href="#ref-Li2014" role="doc-biblioref">2014</a>)</span> both model mechanisms for pricing private data under the assumption that individuals are only willing to disclose such information if they are paid.</p>
+<p>Part of the social value of privacy arises from its relationship to scientific integrity. While the law of information recovery suggests that improved privacy must come at the cost of increased error in published statistics, these effects might be mitigated through two distinct channels. First, people are more truthful in surveys if they believe their data is not at risk, as <span class="citation">Couper, Singer, Conrad, &amp; Groves (<a href="#ref-couper2008risk" role="doc-biblioref">2008</a>)</span> illustrate. Second, work in computer science <span class="citation">(Dwork et al., <a href="#ref-Dwork:Generalization:NIPS:2015" role="doc-biblioref">2015</a> )</span> and statistics <span class="citation">(Cummings, Ligett, Nissim, Roth, &amp; Wu, <a href="#ref-cummings:adaptive:corr:2016" role="doc-biblioref">2016</a>)</span> suggests another somewhat surprising benefit of differential privacy: protection against overfitting. A complete accounting of the costs and benefits of formal privacy systems should take these channels into account.</p>
 <p>It is equally necessary to develop a more robust understanding of why data is valuable in the first place, the overall social cost of increasing error in public statistics. This seems to be an area in which very little comprehensive theoretical or empirical research has been done. We nevertheless recommend what seem to be good starting points.</p>
-<p>On the theoretical side, economists studying privacy have also developed models of the value of data to firms. In these models, firms benefit from being able to tailor prices based on individual demand <span class="citation">(C. R. Taylor, <a href="#ref-Taylor:Consumer:RAND:2004">2004</a>)</span>, or from being able to market more effectively <span class="citation">(Varian, <a href="#ref-Varian1998">1998</a>)</span>. More recently, a theoretical literature on information design has begun to consider more effective ways to manage markets for consumer information, see <span class="citation">Bergemann, Bonatti, &amp; Smolin (<a href="#ref-10.1257/aer.20161079">2018</a>)</span> and <span class="citation">Pomatto, Strack, &amp; Tamuz (<a href="#ref-PomattoTheCostOfInformation2018">2018</a>)</span>. The recent literature is related to <span class="citation">Bruce D. Spencer (<a href="#ref-Spencer:Optimal:JASA:1985">1985</a>)</span>, who developed a decision-theoretic framework for modeling optimal data quality.</p>
-<p>On the empirical side, a handful of interesting use cases suggest techniques for uncovering the value of data. For example, <span class="citation">Card, Mas, Moretti, &amp; Saez (<a href="#ref-CardAER2012">2012</a>)</span> and <span class="citation">Perez-Truglia (<a href="#ref-perez-truglia:transparency:SSRN:2016">2016</a>)</span> show how workers respond to pay transparency policies, which give them new information about co-worker salaries. <span class="citation">Bruce David Spencer &amp; Seeskin (<a href="#ref-Seeskin:Spencer:Effects:2015">2015</a>)</span> use a calibration exercise to study the costs, measured in misallocated congressional seats, of reduced accuracy in population census data.</p>
+<p>On the theoretical side, economists studying privacy have also developed models of the value of data to firms. In these models, firms benefit from being able to tailor prices based on individual demand <span class="citation">(Taylor, <a href="#ref-Taylor:Consumer:RAND:2004" role="doc-biblioref">2004</a>)</span>, or from being able to market more effectively <span class="citation">(Varian, <a href="#ref-Varian1998" role="doc-biblioref">1998</a>)</span>. More recently, a theoretical literature on information design has begun to consider more effective ways to manage markets for consumer information, see <span class="citation">Bergemann, Bonatti, &amp; Smolin (<a href="#ref-10.1257/aer.20161079" role="doc-biblioref">2018</a>)</span> and <span class="citation">Pomatto, Strack, &amp; Tamuz (<a href="#ref-PomattoTheCostOfInformation2018" role="doc-biblioref">2018</a>)</span>. The recent literature is related to <span class="citation">Spencer (<a href="#ref-Spencer:Optimal:JASA:1985" role="doc-biblioref">1985</a>)</span>, who developed a decision-theoretic framework for modeling optimal data quality.</p>
+<p>On the empirical side, a handful of interesting use cases suggest techniques for uncovering the value of data. For example, <span class="citation">Card, Mas, Moretti, &amp; Saez (<a href="#ref-CardAER2012" role="doc-biblioref">2012</a>)</span> and <span class="citation">Perez-Truglia (<a href="#ref-perez-truglia:transparency:SSRN:2016" role="doc-biblioref">2016</a>)</span> show how workers respond to pay transparency policies, which give them new information about co-worker salaries. <span class="citation">Spencer &amp; Seeskin (<a href="#ref-Seeskin:Spencer:Effects:2015" role="doc-biblioref">2015</a>)</span> use a calibration exercise to study the costs, measured in misallocated congressional seats, of reduced accuracy in population census data.</p>
 </div>
 <h3>References</h3>
 <div id="refs" class="references">
 <div id="ref-10.1257/aer.20161079">
-<p>Bergemann, D., Bonatti, A., &amp; Smolin, A. (2018). The design and price of information. <em>American Economic Review</em>, <em>108</em>(1), 1–48. <a href="https://doi.org/10.1257/aer.20161079" class="uri">https://doi.org/10.1257/aer.20161079</a></p>
+<p>Bergemann, D., Bonatti, A., &amp; Smolin, A. (2018). The design and price of information. <em>American Economic Review</em>, <em>108</em>(1), 1–48. <a href="https://doi.org/10.1257/aer.20161079">https://doi.org/10.1257/aer.20161079</a></p>
 </div>
 <div id="ref-CardAER2012">
-<p>Card, D., Mas, A., Moretti, E., &amp; Saez, E. (2012). Inequality at work: The effect of peer salaries on job satisfaction. <em>American Economic Review</em>, <em>102</em>(6), 2981–3003. <a href="https://doi.org/10.1257/aer.102.6.2981" class="uri">https://doi.org/10.1257/aer.102.6.2981</a></p>
+<p>Card, D., Mas, A., Moretti, E., &amp; Saez, E. (2012). Inequality at work: The effect of peer salaries on job satisfaction. <em>American Economic Review</em>, <em>102</em>(6), 2981–3003. <a href="https://doi.org/10.1257/aer.102.6.2981">https://doi.org/10.1257/aer.102.6.2981</a></p>
 </div>
 <div id="ref-couper2008risk">
-<p>Couper, M. P., Singer, E., Conrad, F. G., &amp; Groves, R. M. (2008). Risk of disclosure, perceptions of risk, and concerns about privacy and confidentiality as factors in survey participation. <em>Journal of Official Statistics</em>, <em>24</em>(2), 255. Retrieved from <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096944/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096944/</a></p>
+<p>Couper, M. P., Singer, E., Conrad, F. G., &amp; Groves, R. M. (2008). Risk of disclosure, perceptions of risk, and concerns about privacy and confidentiality as factors in survey participation. <em>Journal of Official Statistics</em>, <em>24</em>(2), 255. Retrieved from <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096944/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096944/</a></p>
 </div>
 <div id="ref-cummings:adaptive:corr:2016">
-<p>Cummings, R., Ligett, K., Nissim, K., Roth, A., &amp; Wu, Z. S. (2016). Adaptive learning with robust generalization guarantees. <em>CoRR</em>, <em>abs/1602.07726</em>. Retrieved from <a href="http://arxiv.org/abs/1602.07726" class="uri">http://arxiv.org/abs/1602.07726</a></p>
+<p>Cummings, R., Ligett, K., Nissim, K., Roth, A., &amp; Wu, Z. S. (2016). Adaptive learning with robust generalization guarantees. <em>CoRR</em>, <em>abs/1602.07726</em>. Retrieved from <a href="http://arxiv.org/abs/1602.07726">http://arxiv.org/abs/1602.07726</a></p>
 </div>
 <div id="ref-Dwork:Generalization:NIPS:2015">
-<p>Dwork, C., Feldman, V., Hardt, M., Pitassi, T., Reingold, O., &amp; Roth, A. (2015). Generalization in adaptive data analysis and holdout reuse. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, &amp; R. Garnett (Eds.), <em>Advances in neural information processing systems 28</em> (pp. 2341–2349). Retrieved from <a href="http://papers.nips.cc/paper/5993-generalization-in-adaptive-data-analysis-and-holdout-reuse.pdf" class="uri">http://papers.nips.cc/paper/5993-generalization-in-adaptive-data-analysis-and-holdout-reuse.pdf</a></p>
+<p>Dwork, C., Feldman, V., Hardt, M., Pitassi, T., Reingold, O., &amp; Roth, A. (2015). Generalization in adaptive data analysis and holdout reuse. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, &amp; R. Garnett (Eds.), <em>Advances in neural information processing systems 28</em> (pp. 2341–2349). Retrieved from <a href="http://papers.nips.cc/paper/5993-generalization-in-adaptive-data-analysis-and-holdout-reuse.pdf">http://papers.nips.cc/paper/5993-generalization-in-adaptive-data-analysis-and-holdout-reuse.pdf</a></p>
 </div>
 <div id="ref-Ghosh:Auction:GEB:2015">
-<p>Ghosh, A., &amp; Roth, A. (2015). Selling privacy at auction. <em>Games and Economic Behavior</em>, <em>91</em>, 334–346. <a href="https://doi.org/10.1016/j.geb.2013.06.013" class="uri">https://doi.org/10.1016/j.geb.2013.06.013</a></p>
+<p>Ghosh, A., &amp; Roth, A. (2015). Selling privacy at auction. <em>Games and Economic Behavior</em>, <em>91</em>, 334–346. <a href="https://doi.org/10.1016/j.geb.2013.06.013">https://doi.org/10.1016/j.geb.2013.06.013</a></p>
 </div>
 <div id="ref-Li2014">
-<p>Li, C., Li, D. Y., Miklau, G., &amp; Suciu, D. A. N. (2014). A theory of pricing private data. <em>ACM Transactions on Database Systems</em>, <em>39</em>(4), 34:1–34:27. <a href="https://doi.org/10.1145/2448496.2448502" class="uri">https://doi.org/10.1145/2448496.2448502</a></p>
+<p>Li, C., Li, D. Y., Miklau, G., &amp; Suciu, D. A. N. (2014). A theory of pricing private data. <em>ACM Transactions on Database Systems</em>, <em>39</em>(4), 34:1–34:27. <a href="https://doi.org/10.1145/2448496.2448502">https://doi.org/10.1145/2448496.2448502</a></p>
 </div>
 <div id="ref-perez-truglia:transparency:SSRN:2016">
-<p>Perez-Truglia, R. (2016). The effects of income transparency on well-being: Evidence from a natural experiment. <em>SSRN</em>. <a href="https://doi.org/10.2139/ssrn.2657808" class="uri">https://doi.org/10.2139/ssrn.2657808</a></p>
+<p>Perez-Truglia, R. (2016). The effects of income transparency on well-being: Evidence from a natural experiment. <em>SSRN</em>. <a href="https://doi.org/10.2139/ssrn.2657808">https://doi.org/10.2139/ssrn.2657808</a></p>
 </div>
 <div id="ref-PomattoTheCostOfInformation2018">
 <p>Pomatto, L., Strack, P., &amp; Tamuz, O. (2018). <em>The cost of information</em>. arXiv.</p>
 </div>
 <div id="ref-Spencer:Optimal:JASA:1985">
-<p>Spencer, B. D. (1985). Optimal data quality. <em>Journal of the American Statistical Association</em>, <em>80</em>(391), 564–573. <a href="https://doi.org/10.1080/01621459.1985.10478155" class="uri">https://doi.org/10.1080/01621459.1985.10478155</a></p>
+<p>Spencer, B. D. (1985). Optimal data quality. <em>Journal of the American Statistical Association</em>, <em>80</em>(391), 564–573. <a href="https://doi.org/10.1080/01621459.1985.10478155">https://doi.org/10.1080/01621459.1985.10478155</a></p>
 </div>
 <div id="ref-Seeskin:Spencer:Effects:2015">
-<p>Spencer, B. D., &amp; Seeskin, Z. H. (2015). Effects of Census accuracy on apportionment of Congress and allocations of federal funds. <em>JSM Proceedings, Government Statistics Section</em>, 3061–3075. Retrieved from <a href="https://www.ipr.northwestern.edu/publications/papers/2015/ipr-wp-15-05.html" class="uri">https://www.ipr.northwestern.edu/publications/papers/2015/ipr-wp-15-05.html</a></p>
+<p>Spencer, B. D., &amp; Seeskin, Z. H. (2015). Effects of Census accuracy on apportionment of Congress and allocations of federal funds. <em>JSM Proceedings, Government Statistics Section</em>, 3061–3075. Retrieved from <a href="https://www.ipr.northwestern.edu/publications/papers/2015/ipr-wp-15-05.html">https://www.ipr.northwestern.edu/publications/papers/2015/ipr-wp-15-05.html</a></p>
 </div>
 <div id="ref-Taylor:Consumer:RAND:2004">
-<p>Taylor, C. R. (2004). Consumer privacy and the market for customer information. <em>The RAND Journal of Economics</em>, <em>35</em>(4), 631–650. <a href="https://doi.org/10.2307/1593765" class="uri">https://doi.org/10.2307/1593765</a></p>
+<p>Taylor, C. R. (2004). Consumer privacy and the market for customer information. <em>The RAND Journal of Economics</em>, <em>35</em>(4), 631–650. <a href="https://doi.org/10.2307/1593765">https://doi.org/10.2307/1593765</a></p>
 </div>
 <div id="ref-Varian1998">
-<p>Varian, H. R. (1998). <em>Markets for Information Goods</em> (pp. 1–19) [Mimeo]. Retrieved from UC Berkeley School of Information website: <a href="http://people.ischool.berkeley.edu/~hal/Papers/japan/index.html" class="uri">http://people.ischool.berkeley.edu/~hal/Papers/japan/index.html</a></p>
+<p>Varian, H. R. (1998). <em>Markets for Information Goods</em> (pp. 1–19) [Mimeo]. Retrieved from UC Berkeley School of Information website: <a href="http://people.ischool.berkeley.edu/~hal/Papers/japan/index.html">http://people.ischool.berkeley.edu/~hal/Papers/japan/index.html</a></p>
 </div>
 </div>
             </section>
